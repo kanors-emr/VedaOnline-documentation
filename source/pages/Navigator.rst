@@ -4,7 +4,7 @@ Navigator
 
 Demo:
 
-* The Navigator provides a comprehensive view of all the templates in the various folders managed by Veda for the current model (youtube video).
+* The Navigator provides a comprehensive view of all the templates in the various folders managed by Veda for the current model.
 * The Navigator is the main vehicle for accessing, importing, and coordinating the various templates that make up a model.
 * Its main screen is divided into sub-windows according to the various types of templates managed by Veda.
 
