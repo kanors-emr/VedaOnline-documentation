@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Veda Online Documentation'
+project = 'Veda Online'
 copyright = '2021, KanORS-EMR'
 author = 'KanORS-EMR'
 
