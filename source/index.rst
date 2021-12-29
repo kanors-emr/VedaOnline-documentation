@@ -10,7 +10,15 @@ Welcome to Veda Online Documentation's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
+   pages/introduction
+   pages/Veda Menu
+   pages/Navigator
+   pages/Browse
+   pages/Items detail
+   pages/Run Manager
+   pages/Results
+   pages/Reports
+   pages/Notes
 
 Indices and tables
 ==================
