@@ -60,26 +60,3 @@ code.
 
 .. image:: images/data_flow_and_files.PNG
     :width: 700
-
-Collaborative working
-^^^^^^^^^^^^^^^^^^^^^
-Multiple users working on the same model on a server will be able to share the following:
-    * Model runs
-        * Runs from multiple users, even with the same name, will be usable in the Results module. “User” will be a dimension in the data, like region, scenario etc.
-    * Input Data GDX
-    * Results views definitions
-    * Various groups and case definitions for Run Manager
-
-Further, the JSON files in Appdata folder will also retain username information. So, users sharing model folders will be able to use or filter out groups, cases and views created by other users.
-
-Advanced reporting
-^^^^^^^^^^^^^^^^^^
-Results functionality in Veda works well for interactive and production reporting. But there are two limitations, removing which can make this a lot more powerful and flexible.
-First, the *reporting variables* are trapped in tables – we don’t have direct control over them.
-Second, we cannot add dimensions to the output views – we are limited to process and commodity sets in terms of segmenting the output beyond the native indexes like attribute, region and time.
-Let’s take transportation final energy (in a rich model like the JRC_EU-TIMES) as an example: I want to see energy consumption by scenario, region, fuel, mode, size, and technology.
-Scenario and region are separate indexes, and fuel can be managed with commodity sets. But we have only process sets to deal with mode, size and technology.
-The entirely new approach of custom reports uses an Excel template to define reporting variables in a very efficient manner, and freely add
-dimensions based process/commodity names, regions and scenarios. Further, it is possible to include exogenous data in this process. It can be used to include historical energy
-balances to show historical trends in summary views, and to set up calibration checking views.
-
