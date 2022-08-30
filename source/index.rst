@@ -19,6 +19,7 @@ Welcome to Veda Online's documentation!
    pages/Results
    pages/Reports
    pages/Notes
+   pages/Known Issues
 
 Indices and tables
 ==================
