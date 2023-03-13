@@ -2,11 +2,15 @@
 Reports
 #######
 
-The Advanced license of Veda2.0 offers a very powerful and efficient functionality to create reports. VEDA_BE and the Results functionality in Veda2.0 work
-well for interactive and even production reporting. But there are two limitations, which are removed in the Reports feature.
-First, the reporting variables are trapped in tables – we don’t have direct control over them. Second, we cannot add dimensions to the output views –
-we are limited to process and commodity sets in terms of segmenting the output beyond the native indexes like attribute, region and time.
-Let’s take transportation final energy (in a rich model like the JRC_EU-TIMES) as an example: one may want to see energy consumption by scenario, region, fuel,
+The results of TIMES models are too granular for anyone outside the core modeling team. Modelers normally use Excel workbooks or Powerpoint presentations to share results with clients
+and stakeholders. Modeling can be more effective if the final consumers of insights can engage with the results directly, not only through the modeling team.
+
+The Reports feature of VO makes this possible.
+
+You can create reporting variables with names that any domain-aware person can understand, like "Electricity Generation" and "Final Energy", for example. Then you can
+add an unlimited number of dimensions, like Sector, Fuel, Enduse, Technology, Electricity/CHP, CCS/Non-CCS to disaggregate these reporting variables.
+
+Let’s take Transportation final energy (in a rich model like the JRC_EU-TIMES) as an example: you may want to see energy consumption by scenario, region, fuel,
 mode, size, and technology. Scenario and region are separate indexes, and fuel can be managed with commodity sets. But we have only process sets to deal with mode,
 size and technology. The only way is to create three sets of process sets, which have to be viewed separately.
 The entirely new approach of Reports uses an Excel template to define reporting variables in a very efficient manner, and freely add dimensions
@@ -17,7 +21,6 @@ per-capita or per unit of GDP.
 .. note::
     * Examples in this section are based on the `JRC_EU-TIMES model <https://github.com/KanORS-E4SMA/EU_TIMES_Veda2.0>`_. Readers can find more examples in the file LMADefs-EU_TIMES.xlsm.
     * Reports feature is active in Trial licenses.
-        * This feature has been activated in all licenses starting version 1.239.1.1 **till 31 Dec 2021**, so that all users can test this feature.
 
 
 Core mechanics of Report creation
@@ -75,7 +78,7 @@ Aggregations based on Commodity names
     :width: 600
 
 .. note::
-    Like in INS tables of Veda, subsequent declarations override the previous ones. For example, one may have several different types of oil, named OILxyz. If one wants to track only Oil other, Diesel and Gasoline, then write OIL* | Oil other; OILDST | Diesel; OILGSL | Gasoline, one below the other.
+    Like in INS tables of Veda, subsequent declarations override the previous ones. For example, you may have several different types of oil, named OILxyz. If you want to track only Oil other, Diesel and Gasoline, then write OIL* | Oil other; OILDST | Diesel; OILGSL | Gasoline, one below the other.
 
 Aggregations based on Process names
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
