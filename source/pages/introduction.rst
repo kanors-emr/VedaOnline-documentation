@@ -85,12 +85,10 @@ code.
 Pricing (US$)
 =============
 
-
-
 **Veda online platform - annual subscription fee**
 
 .. csv-table::
-        :file: tables\pricing_vo.csv
+        :file: tables/pricing_vo.csv
         :widths: 1,1,1,1,2
         :header-rows: 1
 
@@ -99,9 +97,8 @@ Pricing (US$)
 GAMS Engine is available at $12.37 per hour. Users can prepay for any number of hours (>= 40). These hours can be transferred across users and years but they cannot be
 refunded. Note that thier price is subject to change depending upon GAMS policy.
 
-
 .. csv-table::
-        :file: tables\pricing_ge.csv
+        :file: tables/pricing_ge.csv
         :widths: 1,1,1,1,2
         :header-rows: 1
 
