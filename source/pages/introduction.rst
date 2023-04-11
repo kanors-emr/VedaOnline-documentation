@@ -82,8 +82,10 @@ code.
 .. image:: images/data_flow_and_files.PNG
     :width: 700
 
-Pricing (US$)
-^^^^^^^^^^^^^
+Pricing
+^^^^^^^
+
+*All prices are in US Dollars*
 
 **Veda online platform - annual subscription fee**
 
