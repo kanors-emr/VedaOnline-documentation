@@ -83,7 +83,7 @@ code.
     :width: 700
 
 Pricing (US$)
-=============
+^^^^^^^^^^^^^
 
 **Veda online platform - annual subscription fee**
 
