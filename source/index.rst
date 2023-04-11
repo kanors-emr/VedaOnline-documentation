@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Veda Online's documentation!
-=====================================================
+Welcome to Veda Online documentation
+====================================
 
 .. toctree::
    :maxdepth: 2

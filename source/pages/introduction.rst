@@ -1,6 +1,27 @@
 #############
 Introduction
 #############
+
+Veda online (VO) enables working with TIMES models via Internet Browsers. Veda model folders are expected to be on GitHub, and all the core functionality of Veda2.0 - Synchronizing Excel files,
+browsing input data, running models, and looking at results/reports - is available online.
+
+VO users can make their models accessible to other VO users with control over what modules are visible and the downloadability of input/output. This makes collaborative development
+much more efficient. Further, this opens the possibility to disseminate models - to create model users.
+
+It offers several advantages over Veda2.0 to individual users as well:
+    * No software setup/updates needed
+    * Enforces version control discipline via GitHub
+    * Model synchronization and runs on state-of-the-art servers
+    * Availability of model input/output no longer dependent on specific machines
+    * Far superior data visualization in Reports, Results, and Browse.
+
+While I can manage incremental modifications with VO, Veda2.0 remains my preferred tool for model development and debugging.
+
+VO is an open website. Public models are visible to visitors even without logging in. An annual subscription is required to create models and perform runs. Making model runs
+also needs GAMS/CPLEX cloud service, but that is managed by KanORS.
+
+Veda
+^^^^
 VEDA means “Knowledge” in Sanskrit. It is a software tool to convert modeler's knowledge into input for models, and output from models into knowledge.
 Veda Online is a data handling system for The Integrated MARKAL-EFOM System (TIMES) - a bottom-up optimization model for energy-environment systems.
 Veda is based on a modular approach that organizes the model input data, and results, into an integrated database.
@@ -60,3 +81,28 @@ code.
 
 .. image:: images/data_flow_and_files.PNG
     :width: 700
+
+Pricing (US$)
+=============
+
+
+
+**Veda online platform - annual subscription fee**
+
+.. csv-table::
+        :file: tables\pricing_vo.csv
+        :widths: 1,1,1,1,2
+        :header-rows: 1
+
+**Solver time**
+
+GAMS Engine is available at $12.37 per hour. Users can prepay for any number of hours (>= 40). These hours can be transferred across users and years but they cannot be
+refunded. Note that thier price is subject to change depending upon GAMS policy.
+
+
+.. csv-table::
+        :file: tables\pricing_ge.csv
+        :widths: 1,1,1,1,2
+        :header-rows: 1
+
+Users can also buy GAMS Engine time from GAMS separately and launch runs from VO using their own credentials.
