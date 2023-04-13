@@ -82,12 +82,21 @@ code.
 .. image:: images/data_flow_and_files.PNG
     :width: 700
 
-Pricing
-^^^^^^^
+User types and pricing
+^^^^^^^^^^^^^^^^^^^^^^
+
+Veda online supports the following types of users:
+
+    * **Guest:** Visitors who are not logged in. They will have access to all open models on VO, with download premissions based on the settings used by model owners. They will not be able to save views under Results and Reports.
+    * **Trial:** A trial licnese is allocated by default after signing up on VO. This offers full functionality for 7 days with 5 hours of Solve time.
+        * Users are requested to submit only modest runs during the Trial period. Less than 5GB RAM usage and Less than 10 Min of Solve time.
+    * **Free:** Trial users automatically transition to free users. Models and results created under trial period wil be removed after one month if the user does not buy a license before that. Free users will have access to open models **and** models shared by Developer license holders.
+    * **Developer:** Developer license will let you create models, run cases, and view results and reports. Any private and public model can be shared with *any* user who is registerd on VO. You can purchase GAMS Engine hours to perform runs in the cloud; they can alwys be done locally if you have a GAMS license. VO can send up to 4 concurrent runs on the GAMS Engine.
+    * **Academic:** Developer functionality is offered at discounted prices to Academics (Degree-granting institutions). In addition, this license allows access to the NEOS server. VO can send up to 4 concurrent runs on the NEOS server.
+
+**Annual subscription fee for the Veda online Platform**
 
 *All prices are in US Dollars*
-
-**Veda online platform - annual subscription fee**
 
 .. csv-table::
         :file: tables/pricing_vo.csv
