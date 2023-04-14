@@ -1,3 +1,4 @@
 ﻿Lic Type,Single user,Small Group (5),Medium Group (10),Remarks
-Developer,5000,10000,15000,"There will be some limit on storage (yet to be determined, but >100GB)"
-Academic,2500,5000,7500,"There will be some limit on storage (yet to be determined, but >50GB)"
+Developer,5000,10000,15000,"There will be some limit on storage (yet to be determined, but >50GB per user)"
+Academic,2500,5000,7500,"There will be some limit on storage (yet to be determined, but >25GB per user)"
+Dormant,500,1000,1500,
