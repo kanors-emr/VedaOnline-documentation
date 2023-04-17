@@ -109,8 +109,8 @@ Veda online supports the following types of users:
 
 **Solver time**
 
-GAMS Engine is available at $12.37 per hour. Users can prepay for any number of hours (>= 40). These hours can be transferred across users and years but they cannot be
-refunded. Note that thier price is subject to change depending upon GAMS policy.
+GAMS Engine is available at $12.37 - $13.11 per hour, depending on the machine size. Users can prepay for any number of hours (>= 40). The default machine size can be set under user profile, and it can be changed at the time of launching a set of runs from the VO Run manager. These hours can be transferred across years but they cannot be
+refunded. Note that the GAMS Enging price is subject to change depending upon GAMS policy.
 
 .. csv-table::
         :file: tables/pricing_ge.csv
