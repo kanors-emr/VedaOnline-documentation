@@ -1,4 +1,4 @@
-﻿Solver,Hourly rate,40 h,100 h,500 h,Remarks
-GAMS Engine, $12.37 ,500,1240,6190,"z1d.xlarge (30 GB RAM, 3.7 CPU)"
-GAMS Engine, $12.74 ,510,1280,6370,"z1d.2xlarge (62 GB RAM, 7.7 CPU)"
-GAMS Engine, $13.11 ,530,1320,6560,"z1d.3xlarge (92 GB RAM, 11.7 CPU)"
+﻿Solver,$/hour,40 h,100 h,500 h,Remarks
+GAMS Engine,12.37,500,1240,6190,"z1d.xlarge (30 GB RAM, 3.7 CPU)"
+GAMS Engine,12.74,510,1280,6370,"z1d.2xlarge (62 GB RAM, 7.7 CPU)"
+GAMS Engine,13.11,530,1320,6560,"z1d.3xlarge (92 GB RAM, 11.7 CPU)"
