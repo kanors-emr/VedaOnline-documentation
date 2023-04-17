@@ -92,7 +92,7 @@ Veda online supports the following types of users:
         * Users are requested to submit only modest runs during the Trial period. Less than 5GB RAM usage and Less than 10 Min of Solve time.
     * **Free:** Trial users automatically transition to free users. Free users will have access to open models **and** models shared with them by Developer license holders.
         * Models and results created under trial period wil be removed after one month if the user does not buy a license before that.
-    * **Developer:** Developer license will let you create models, run cases, and view results and reports. Any private and public model can be shared with *any* user who is registerd on VO. You can purchase GAMS Engine hours to perform runs in the cloud; they can alwys be done locally if you have a GAMS license. VO can send up to 4 concurrent runs on the GAMS Engine.
+    * **Developer:** Developer license will let you create models, run cases, and view results and reports. Any private and public model can be shared with *any* user who is registerd on VO. You can purchase GAMS Engine hours to perform runs in the cloud; they can always be done locally if you have a GAMS license. VO can send up to 4 concurrent runs on the GAMS Engine.
     * **Academic:** Developer functionality is offered at discounted prices to Academics (Degree-granting institutions). In addition, this license allows access to the NEOS server. VO can send up to 4 concurrent runs on the NEOS server.
         * **Dormant:** Developer and Academic license holders who do not wish to modify their models or make new runs can become Dormant users - to have continued access to their models and results.
         * Models and results wil be removed one month after a subscription expires.
