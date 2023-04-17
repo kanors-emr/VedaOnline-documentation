@@ -1,2 +1,4 @@
 ﻿Solver,40 h,100 h,500 h,Remarks
-GAMS Engine,500,1240,6200,4 cores / 32GB RAM
+GAMS Engine,500,1240,6190,"z1d.xlarge (30 GB RAM, 3.7 CPU)"
+GAMS Engine,510,1280,6370,"z1d.2xlarge (62 GB RAM, 7.7 CPU)"
+GAMS Engine,530,1320,6560,"z1d.3xlarge (92 GB RAM, 11.7 CPU)"
