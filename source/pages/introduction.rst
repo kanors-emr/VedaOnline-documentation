@@ -114,7 +114,7 @@ refunded. Note that the GAMS Enging price is subject to change depending upon GA
 
 .. csv-table::
         :file: tables/pricing_ge.csv
-        :widths: 1,1,1,1,2
+        :widths: 1,1,1,1,1,2
         :header-rows: 1
 
 Users can also buy GAMS Engine time from GAMS separately and launch runs from VO using their own credentials.
