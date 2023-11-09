@@ -34,21 +34,19 @@ Three groups of flexible, “rule-based”, scenarios files:
 Two new components are presented:
 
 * Parametric scenarios – “programmed” multi-value suite of scenarios
-* No Seed Values – the files that do not provide seed values to any other scenario. These are processed in parallel.
+* No Seed Values(NSV) – the files that do not provide seed values to any other scenario. These are processed in parallel. Veda provides the information of which files can be converted into NSV scenarios.
 
 Functionality
 =============
 
-* Start from Scratch
-* Pull
-* Commits
-* Email CHeckbox
-* Synchronize
-
+* Start from Scratch - This button delete the previous model data from database and pulls all the file from github repository. You have to resynchronize your model. Reports Module data will not be deleted.
+* Pull - Here all the files from git repository will be pulled but all your data in VedaOnline database will not change.
+* Commits - Check your GitHub commits directly on VedaOnline.
+* Email CHeckbox - After Synchronization is finished, if this checkbox is unchecked then VO will not send you the email. 
+* Synchronize - It will process all templates in the application folder marked(Selected files) as ToImport(orange)
 * Options Menu
    * NoSeedValue Scenario 
    * Tag Details
-
 * Provides feedback as to the status of the various files and the integrated database managed by Veda according to colour legend at the bottom of form
     * Not imported – not yet read into the database
     * Imported – selected for importing with next SYNC
@@ -61,7 +59,7 @@ Functionality
 .. image:: images/nav_files_status_legend.png
    :width: 600
 
-* The SYNCHRONIZE button will process all templates in the application folder marked as ToImport (orange)
+
 
 SYNC Operation
 ===============
