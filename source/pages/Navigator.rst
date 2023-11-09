@@ -26,9 +26,9 @@ Quadrants
    8. **No Seed Values** [NSV] – the files that do not provide seed values to any other scenario. These are processed in parallel. Veda provides the information of which files can be converted into NSV scenarios. (Introduced in 2019)
 
 .. note::
-   1 contains comprehensive info about model. Veda will not Synchronize with this file.
-   2 and 3 - Calibration templates for Base Year
-   5 to 8 - Groups of flexible, “rule-based”, scenarios files:
+   -1 contains comprehensive info about model. Veda will not Synchronize without this file.
+   -2 and 3 - Calibration templates for Base Year
+   -5 to 8 - Groups of flexible, “rule-based”, scenarios files:
 
 
 How to Use?
@@ -37,7 +37,7 @@ How to Use?
 * Start from Scratch - This button delete the previous model data from database and pulls all the file from github repository. You have to resynchronize your model. Reports Module data will not be deleted.
 * Pull - Here all the files from git repository will be pulled but all your data in VedaOnline database will not change.
 * Commits - Check your GitHub commits directly on VedaOnline.
-* Email CHeckbox - After Synchronization is finished, if this checkbox is unchecked then VO will not send you the email. 
+* Email Checkbox - After Synchronization is finished, if this checkbox is unchecked then VO will not send you the email. 
 * Synchronize - It will process all templates in the application folder marked(Selected files) as ToImport(orange)
 * Options Menu
    * NoSeedValue Scenario 
@@ -58,11 +58,11 @@ How to Use?
 
 
 SYNC Operation
-===============
+^^^^^^^^^^^^^^
 
-Synchronize imports all selected Excel workbooks into the Veda database
+Synchronize imports all selected Excel workbooks into the Veda database. The processing can be seen live on right logging window or on the JobsDashboard page.
 
-An e-mail is sent to the associated user to notify that the sync has started and another e-mail is sent upon completion. Whether successful or not, sync log details are also sent in the completion e-mail.
+An e-mail is also sent to the associated user upon completion. Whether successful or not, sync log details are also sent in the completion e-mail.
 
 After synchronizing a model you can return to the Navigator.
 
