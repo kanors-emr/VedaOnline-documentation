@@ -39,9 +39,16 @@ Two new components are presented:
 Functionality
 =============
 
-* Navigator enables easy access to any of the Excel templates constituting the currently open model
-* Double-clicking directly on any file name (or click the Excel icon next to it, in the case of the BY_Trans and SysSettings files) will open that file in Excel
-* Clicking on the folder button above each section of the Navigator will open the associated folder in Windows Explorer
+* Start from Scratch
+* Pull
+* Commits
+* Email CHeckbox
+* Synchronize
+
+* Options Menu
+   * NoSeedValue Scenario 
+   * Tag Details
+
 * Provides feedback as to the status of the various files and the integrated database managed by Veda according to colour legend at the bottom of form
     * Not imported – not yet read into the database
     * Imported – selected for importing with next SYNC
@@ -49,7 +56,6 @@ Functionality
     * InConsistent – file has been modified after the last SYNC operation
     * ToRemove – missing template imported previously now flagged for removal from the database
     * FileMissing – previously imported template that no longer exists in the template folder
-    * FileOpen – a template currently open, so can not be processed/imported
     * Error – if a file has thrown an error
 
 .. image:: images/nav_files_status_legend.png
