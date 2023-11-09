@@ -14,25 +14,25 @@ Demo:
 
 
 Quadrants
-=========
+---------
 
-Template containing comprehensive information about the model’s basic structure (regions, sub-regions, time-periods, time-slices, …)
-   1. **SysSetting**
-
-Calibration templates for Base Year
-   2. **Base scenario** [BS] – current technology mix
-   3. **BaseTrans** – operations on the BS templates
-
+   1. **SysSetting** - Template containing comprehensive information about the model’s basic structure (regions, sub-regions, time-periods, time-slices, …)
+   2. **Base scenario** [BS] – current technology mix 
+   3. **BaseTrans** – operations on the BS templates 
    4. **SubRES** [SR] - Repository for the depiction of future technologies
-
-Groups of flexible, “rule-based”, scenarios files:
    5. **Regular Scenarios** [RS] - files for data addition and updates.
    6. **Demand Scenarios** [DS] - projection module tied to economic indicators, fine-tuned with analyst insight.
    7. **Parametric Scenarios** [PS] - functionality designed to handle easily multiple runs and parametric analysis. “programmed” multi-value suite of scenarios.
    8. **No Seed Values** [NSV] – the files that do not provide seed values to any other scenario. These are processed in parallel. Veda provides the information of which files can be converted into NSV scenarios. (Introduced in 2019)
 
+.. note::
+   1 contains comprehensive info about model. Veda will not Synchronize with this file.
+   2 and 3 - Calibration templates for Base Year
+   5 to 8 - Groups of flexible, “rule-based”, scenarios files:
+
+
 How to Use?
-=============
+-----------
 
 * Start from Scratch - This button delete the previous model data from database and pulls all the file from github repository. You have to resynchronize your model. Reports Module data will not be deleted.
 * Pull - Here all the files from git repository will be pulled but all your data in VedaOnline database will not change.
