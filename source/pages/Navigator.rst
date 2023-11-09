@@ -17,19 +17,19 @@ Quadrants
 =========
 
 Template containing comprehensive information about the model’s basic structure (regions, sub-regions, time-periods, time-slices, …)
-1. **SysSetting**
+   1. **SysSetting**
 
 Calibration templates for Base Year
-2. **Base scenario** [BS] – current technology mix
-3. **BaseTrans** – operations on the BS templates
+   2. **Base scenario** [BS] – current technology mix
+   3. **BaseTrans** – operations on the BS templates
 
-4. **SubRES** [SR] - Repository for the depiction of future technologies
+   4. **SubRES** [SR] - Repository for the depiction of future technologies
 
-Three groups of flexible, “rule-based”, scenarios files:
-5. **Regular Scenarios** [RS] - files for data addition and updates.
-6. **Demand Scenarios** [DS] - projection module tied to economic indicators, fine-tuned with analyst insight.
-7. **Parametric Scenarios** [PS] - functionality designed to handle easily multiple runs and parametric analysis. “programmed” multi-value suite of scenarios.
-8. **No Seed Values** [NSV] – the files that do not provide seed values to any other scenario. These are processed in parallel. Veda provides the information of which files can be converted into NSV scenarios. (Introduced in 2019)
+Groups of flexible, “rule-based”, scenarios files:
+   5. **Regular Scenarios** [RS] - files for data addition and updates.
+   6. **Demand Scenarios** [DS] - projection module tied to economic indicators, fine-tuned with analyst insight.
+   7. **Parametric Scenarios** [PS] - functionality designed to handle easily multiple runs and parametric analysis. “programmed” multi-value suite of scenarios.
+   8. **No Seed Values** [NSV] – the files that do not provide seed values to any other scenario. These are processed in parallel. Veda provides the information of which files can be converted into NSV scenarios. (Introduced in 2019)
 
 How to Use?
 =============
