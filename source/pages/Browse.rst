@@ -15,6 +15,7 @@ Browsing model input is **necessary** for two reasons:
 
 
 .. image:: images/Browse.png
+   :align: center
    :width: 600
 
 The Browser thereby enables the user to view subsets of the assembled data in a cube by selecting the scenario(s), region(s), process(es), commodity(ies), and/or the attribute(s) of interest.

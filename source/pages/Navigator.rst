@@ -10,33 +10,28 @@ Demo:
 
 .. image:: images/navigator.png
    :width: 600
+   :align: center
 
 
 Quadrants
 =========
 
 Template containing comprehensive information about the model’s basic structure (regions, sub-regions, time-periods, time-slices, …)
-**SysSetting**
+1. **SysSetting**
 
 Calibration templates for Base Year
-**Base scenario** [BS] – current technology mix
-**BaseTrans** – operations on the BS templates
+2. **Base scenario** [BS] – current technology mix
+3. **BaseTrans** – operations on the BS templates
 
-Repository for the depiction of future technologies
-**SubRES** [SR]
+4. **SubRES** [SR] - Repository for the depiction of future technologies
 
 Three groups of flexible, “rule-based”, scenarios files:
-**Regular Scenarios** [RS] - files for data addition and updates
-**Demand Scenarios** [DS] - projection module tied to economic indicators, fine-tuned with analyst insight
-**Parametric Scenarios** [PS] - functionality designed to handle easily multiple runs and parametric analysis
+5. **Regular Scenarios** [RS] - files for data addition and updates.
+6. **Demand Scenarios** [DS] - projection module tied to economic indicators, fine-tuned with analyst insight.
+7. **Parametric Scenarios** [PS] - functionality designed to handle easily multiple runs and parametric analysis. “programmed” multi-value suite of scenarios.
+8. **No Seed Values** [NSV] – the files that do not provide seed values to any other scenario. These are processed in parallel. Veda provides the information of which files can be converted into NSV scenarios. (Introduced in 2019)
 
-
-Two new components are presented:
-
-* Parametric scenarios – “programmed” multi-value suite of scenarios
-* No Seed Values(NSV) – the files that do not provide seed values to any other scenario. These are processed in parallel. Veda provides the information of which files can be converted into NSV scenarios.
-
-Functionality
+How to Use?
 =============
 
 * Start from Scratch - This button delete the previous model data from database and pulls all the file from github repository. You have to resynchronize your model. Reports Module data will not be deleted.
@@ -58,6 +53,7 @@ Functionality
 
 .. image:: images/nav_files_status_legend.png
    :width: 600
+   :align: center
 
 
 
