@@ -33,16 +33,31 @@ Quadrants
 
 How to Use?
 -----------
+SYNC Operation
+^^^^^^^^^^^^^^
+Synchronize imports all selected Excel workbooks into the Veda database. The processing can be seen live on right logging window or on the JobsDashboard page. An e-mail is also sent to the associated user upon on completion. Whether successful or not, sync log details are also sent in the completion e-mail.
+After synchronizing a model, you can return to the Navigator.
 
-#. Start from Scratch - This button delete the previous model data from database and pulls all the file from github repository. You have to resynchronize your model. Reports Module data will not be deleted.
-#. Pull - Here all the files from git repository will be pulled but all your data in VedaOnline database will not change.
-#. Commits - Check your GitHub commits directly on VedaOnline.
-#. Email Checkbox - After Synchronization is finished, if this checkbox is unchecked then VO will not send you the email. 
-#. Synchronize - It will process all templates in the application folder marked(Selected files) as ToImport(orange)
-#. Options Menu
+User Inputs
+^^^^^^^^^^^
+.. image:: images/navigator_menu.png
+   :width: 600
+   :align: center
+#. *Start from Scratch* - This button delete the previous model data from database and pulls all the file from github repository. You have to resynchronize your model. Reports Module data will not be deleted.
+#. *Pull* - Here all the files from git repository will be pulled but all your data in VedaOnline database will not change.
+#. *Commits* - Check your GitHub commits directly on VedaOnline.
+#. *Email Checkbox* - After Synchronization is finished, if this checkbox is unchecked then VO will not send you the email. 
+#. *Synchronize* - It will process all templates in the application folder marked(Selected files) as ToImport(orange)
+#. *Options Menu*
  * NoSeedValue Scenario
  * Tag Details
-7. Provides feedback as to the status of the various files and the integrated database managed by Veda according to colour legend at the bottom of form
+
+File Status
+^^^^^^^^^^^
+.. image:: images/nav_files_status_legend.png
+   :width: 600
+   :align: center
+Provides feedback as to the status of the various files and the integrated database managed by Veda according to colour legend at the bottom of form
  * *Not imported* – not yet read into the database
  * *Imported* – selected for importing with next SYNC
  * *Consistent* – templates that are in sync with the database
@@ -51,12 +66,7 @@ How to Use?
  * *FileMissing* – previously imported template that no longer exists in the template folder
  * *Error* – if a file has thrown an error
 
-.. image:: images/nav_files_status_legend.png
-   :width: 600
-   :align: center
 
-SYNC Operation
-^^^^^^^^^^^^^^
-Synchronize imports all selected Excel workbooks into the Veda database. The processing can be seen live on right logging window or on the JobsDashboard page. An e-mail is also sent to the associated user upon on completion. Whether successful or not, sync log details are also sent in the completion e-mail.
-After synchronizing a model, you can return to the Navigator.
+
+
 
