@@ -9,9 +9,7 @@ Browse
 Browsing model input is **necessary** for two reasons:
     * You may have a syntax error and some of your declarations may have been ignored, or read differently from what you intended.
     * The declarations for a single item may be spread across several Excel files, and you will see them all in one place in this interface.
-
-
-* Browse presents the actual model data.
+    * Browse presents the actual model data.
 
 
 .. image:: images/Browse.png
@@ -23,8 +21,8 @@ It is possible to rearrange the layout of the cube by adding/removing dimensions
 
 
 
-How to use?
-=============
+How to use it?
+---------------
 
 * Browse Select minimum one elements from any of the elements list and click on Browse button to load data in Pivot Grid.
 * Filtering by Sets- In Process and Commodity element list, you can select User or TIMES Set from dropdown list as shown in below figure. Selected set will filter the elements linked to the Set.

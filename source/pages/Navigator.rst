@@ -2,7 +2,6 @@
 Navigator
 #########
 
-Demo:
 
 * The Navigator provides a comprehensive view of all the templates in the various folders managed by Veda for the current model.
 * The Navigator is the main vehicle for accessing, importing, and coordinating the various templates that make up a model.
@@ -30,8 +29,8 @@ Quadrants
    - 5 to 8 - Groups of flexible, “rule-based”, scenarios files:
 
 
-How to Use?
------------
+How to Use it?
+---------------
 SYNC Operation
 ^^^^^^^^^^^^^^
 Synchronize imports all selected Excel workbooks into the Veda database. The processing can be seen live on the right logging window or on the JobsDashboard page. An e-mail is also sent to the associated user upon on completion. Whether successful or not, sync log details are also sent in the completion e-mail.
