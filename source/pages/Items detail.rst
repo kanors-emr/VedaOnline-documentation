@@ -42,14 +42,17 @@ Detailed view
 ^^^^^^^^^^^^^
 .. image:: images/items_view_detail_view.PNG
     :align: center
+    :height: 200px
 
 Basic view
 ^^^^^^^^^^^^^
 .. image:: images/items_view_input_output.PNG
     :align: center
+    :height: 250px
 
 Network Diagram
 ^^^^^^^^^^^^^^^^^
 .. image:: images/items_view_network_diag.PNG
     :align: center
+    :height: 300px
 
