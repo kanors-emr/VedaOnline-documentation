@@ -25,7 +25,7 @@ Quadrants
    #. **No Seed Values** [NSV] – the files that do not provide seed values to any other scenario. These are processed in parallel. Veda provides the information of which files can be converted into NSV scenarios. (Introduced in 2019)
 
 .. note::
-   - 1 contains comprehensive info about model. Veda will not Synchronize without this file.
+   - 1 contains comprehensive info about the model. Veda will not Synchronize without this file.
    - 2 and 3 - Calibration templates for Base Year
    - 5 to 8 - Groups of flexible, “rule-based”, scenarios files:
 
@@ -34,15 +34,15 @@ How to Use?
 -----------
 SYNC Operation
 ^^^^^^^^^^^^^^
-Synchronize imports all selected Excel workbooks into the Veda database. The processing can be seen live on right logging window or on the JobsDashboard page. An e-mail is also sent to the associated user upon on completion. Whether successful or not, sync log details are also sent in the completion e-mail.
+Synchronize imports all selected Excel workbooks into the Veda database. The processing can be seen live on the right logging window or on the JobsDashboard page. An e-mail is also sent to the associated user upon on completion. Whether successful or not, sync log details are also sent in the completion e-mail.
 After synchronizing a model, you can return to the Navigator.
 
 User Inputs
 ^^^^^^^^^^^
 .. image:: images/navigator_menu.png
    :align: center
-#. *Start from Scratch* - This button delete the previous model data from database and pulls all the file from github repository. You have to resynchronize your model. Reports Module data will not be deleted.
-#. *Pull* - Here all the files from git repository will be pulled but all your data in VedaOnline database will not change.
+#. *Start from Scratch* - This button deletes the previous model data from the database and pulls all the files from the GitHub repository. You have to resynchronize your model. Reports Module data will not be deleted.
+#. *Pull* - Here all the files from the git repository will be pulled but all your data in the VedaOnline database will not change.
 #. *Commits* - Check your GitHub commits directly on VedaOnline.
 #. *Email Checkbox* - After Synchronization is finished, if this checkbox is unchecked then VO will not send you the email. 
 #. *Synchronize* - It will process all templates in the application folder marked(Selected files) as ToImport(orange)
@@ -54,13 +54,13 @@ File Status
 ^^^^^^^^^^^
 .. image:: images/nav_files_status_legend.png
    :align: center
-Provides feedback as to the status of the various files and the integrated database managed by Veda according to colour legend at the bottom of form
+Provides feedback as to the status of the various files and the integrated database managed by Veda according to color legend at the bottom of form
  * *Not imported* – not yet read into the database
  * *Imported* – selected for importing with next SYNC
  * *Consistent* – templates that are in sync with the database
  * *InConsistent* – file has been modified after the last SYNC operation
  * *ToRemove* – missing template imported previously now flagged for removal from the database
- * *FileMissing* – previously imported template that no longer exists in the template folder
+ * *FileMissing* – a previously imported template that no longer exists in the template folder
  * *Error* – if a file has thrown an error
 
 
