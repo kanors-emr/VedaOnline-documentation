@@ -16,7 +16,7 @@ Browsing model input is **necessary** for two reasons:
 
 .. image:: images/Browse.png
    :align: center
-   :width: 600
+   
 
 The Browser thereby enables the user to view subsets of the assembled data in a cube by selecting the scenario(s), region(s), process(es), commodity(ies), and/or the attribute(s) of interest.
 It is possible to rearrange the layout of the cube by adding/removing dimensions (columns and rows) to/from the table.
@@ -30,6 +30,7 @@ How to use?
 * Filtering by Sets- In Process and Commodity element list, you can select User or TIMES Set from dropdown list as shown in below figure. Selected set will filter the elements linked to the Set.
 
 .. image:: images/browse_set.png
-
+   :align: center
+   
 .. note::
    How to use Pivot Grid? Check here.(Soon)

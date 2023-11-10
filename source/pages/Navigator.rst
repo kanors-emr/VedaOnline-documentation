@@ -9,7 +9,6 @@ Demo:
 * Its main screen is divided into sub-windows according to the various types of templates managed by Veda.
 
 .. image:: images/navigator.png
-   :width: 600
    :align: center
 
 
@@ -41,7 +40,6 @@ After synchronizing a model, you can return to the Navigator.
 User Inputs
 ^^^^^^^^^^^
 .. image:: images/navigator_menu.png
-   :width: 600
    :align: center
 #. *Start from Scratch* - This button delete the previous model data from database and pulls all the file from github repository. You have to resynchronize your model. Reports Module data will not be deleted.
 #. *Pull* - Here all the files from git repository will be pulled but all your data in VedaOnline database will not change.
@@ -55,7 +53,6 @@ User Inputs
 File Status
 ^^^^^^^^^^^
 .. image:: images/nav_files_status_legend.png
-   :width: 600
    :align: center
 Provides feedback as to the status of the various files and the integrated database managed by Veda according to colour legend at the bottom of form
  * *Not imported* – not yet read into the database
