@@ -11,6 +11,7 @@ Welcome to Veda Online documentation
    :caption: Contents:
 
    pages/introduction
+   pages/WhatToChoose
    pages/Veda Menu
    pages/Navigator
    pages/Browse
