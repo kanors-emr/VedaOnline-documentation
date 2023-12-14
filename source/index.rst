@@ -11,7 +11,8 @@ Welcome to Veda Online documentation
    :caption: Contents:
 
    pages/introduction
-   pages/WhatToChoose
+   pages/VO free for students
+   pages/Comparing V2 and VO
    pages/Veda Menu
    pages/Navigator
    pages/Browse
