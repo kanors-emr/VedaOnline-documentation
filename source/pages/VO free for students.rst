@@ -16,7 +16,9 @@ Features of the free platform
 =============================
 
     * The platform is meant to support only pedagogical use.
-    * Runs will be sent to the NEOS server, which limits the RAM usage to 3GB.
+    * Runs will be solved on the NEOS server - jobs will be sent a GAMS restart files generated on the KanORS servers. NEOS imposes size limits in two ways:
+        * Files sent to NEOS cannot exceed 16MB.
+        * Runs cannot consume more than 3GB.
     * Only public GitHub repos are supported on this platform, and the models created will also remain open.
         * Paid academic and other licenses allow using private repos and creating private models.
     * We may need to introduce some resource limits depending on the uptake of this service:
