@@ -35,7 +35,7 @@ After downloading files from Git Hub we store them on file servers located on hi
 INFORMATI0N SECURITY Certificate of Data/File Servers.
 https://www.hetzner.com/assets/Uploads/downloads/Sicherheit-en.pdf
 
-KanORS periodically test security of https://vedaonline.cloud/ through external Company. Only KanORS has the access to these servers. As a policy we do not access user’s Model Folder.
+Only KanORS has the access to these servers. As a policy we do not access user’s Model Folder.
 
 Veda2.0
 -------
