@@ -10,13 +10,13 @@ Getting started
     * A permanent staff member of a degree granting institution needs to register on Veda online (**with the institutional email address**) and request ETSAP for free access for students.
     * On approval, anyone who registers with an email address from that institution will have access to the free platform.
 
-Model folders must reside on GitHub to be used on Veda online. There are YouTube videos to introduce new users to the platform.
+Model folders must reside on GitHub to be used on Veda online. There are `YouTube videos <https://www.youtube.com/watch?v=gLMRdA0Ogok&list=PLED97cPMXPOl1o4f3Xx5QZEBzswd4Watc>`_ to introduce new users to the platform.
 
 Features of the free platform
 =============================
 
     * The platform is meant to support only pedagogical use.
-    * Runs will be solved on the `NEOS server <https://neos-server.org/neos/>`_ - jobs will be sent as GAMS restart files generated on the KanORS servers. NEOS imposes size limits in two ways:
+    * Runs are solved on the `NEOS server <https://neos-server.org/neos/>`_ - jobs are sent as GAMS restart files that are generated on the KanORS servers. NEOS imposes size limits in two ways:
         * Files sent to NEOS cannot exceed 16MB.
         * Runs cannot consume more than 3GB.
     * Only public GitHub repos are supported on this platform, and the models created will also remain open.
