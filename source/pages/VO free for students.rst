@@ -25,3 +25,6 @@ Features of the free platform
         * Each user will be able to keep up to 3 models and retain up to 20 cases in each.
         * Accounts that are inactive for 3 months will be deleted.
         * Runs will be terminated if they take more than 5 minutes.
+    * The following Veda online features will **NOT** be available on this free platform:
+        * Performing runs locally.
+        * Uploading results from local machines.
