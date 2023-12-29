@@ -13,6 +13,7 @@ Welcome to Veda Online documentation
    pages/introduction
    pages/VO free for students
    pages/Comparing V2 and VO
+   pages/Registration
    pages/Veda Menu
    pages/Navigator
    pages/Browse
