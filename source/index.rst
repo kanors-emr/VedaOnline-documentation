@@ -11,7 +11,7 @@ Welcome to Veda Online documentation
    :caption: Contents:
 
    pages/introduction
-   pages/VO free for students
+   pages/VO_free_academic
    pages/Comparing V2 and VO
    pages/Registration
    pages/Veda Menu

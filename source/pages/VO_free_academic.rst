@@ -28,3 +28,13 @@ Features of the free platform
     * The following Veda online features will **NOT** be available on this free platform:
         * Performing runs locally.
         * Uploading results from local machines.
+
+
+.. note::
+
+    Any report or publication that uses this platform should include the following acknowledgement:
+
+    This research utilized the TIMES model generator and VEDA Online, provided free for academic use by ETSAP IEA TCP,
+    who also funds the software licenses and hardware. VEDA Online platform is provided by KanORS-EMR,
+    and GAMS is employed as the modeling language for TIMES. For further details, visit www.etsap.org.
+
