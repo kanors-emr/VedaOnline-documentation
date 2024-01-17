@@ -7,10 +7,8 @@ ETSAP and KanORS have created a free online platform where students can learn Ve
 Getting started
 ===============
 
-    * A permanent staff member of a degree granting institution needs to register on Veda online (**with the institutional email address**) and request ETSAP for free access for students.
+    * A permanent staff member of a degree granting institution needs to `register on Veda online <https://vedaonline.cloud/Signup.aspx>`_ (**with the institutional email address**) and `request ETSAP <ggian@etsap.org>`_ for free access for students.
     * On approval, anyone who registers with an email address from that institution will have access to the free platform.
-
-.. _Request access: ggian@etsap.org,info@kanors.com
 
 
 Model folders must reside on GitHub to be used on Veda online. There are `YouTube videos <https://www.youtube.com/watch?v=gLMRdA0Ogok&list=PLED97cPMXPOl1o4f3Xx5QZEBzswd4Watc>`_ to introduce new users to the platform.
@@ -37,5 +35,5 @@ Features of the free platform
 
     **Any report or publication that uses this platform should include the following acknowledgement:**
 
-    *This research utilized the TIMES model generator and VEDA Online, provided free for academic use by ETSAP IEA TCP, who also funds the software licenses and hardware. VEDA Online platform is provided by KanORS-EMR, and GAMS is employed as the modeling language for TIMES. For further details, visit www.etsap.org.*
+    *This research utilized the TIMES model generator and VEDA Online, provided free for academic use by ETSAP IEA TCP, who developed TIMES and funds the software licenses and hardware. VEDA Online platform is provided by KanORS-EMR, and GAMS is employed as the modeling language for TIMES. For further details, visit www.etsap.org.*
 
