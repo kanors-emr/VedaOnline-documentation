@@ -10,6 +10,9 @@ Getting started
     * A permanent staff member of a degree granting institution needs to register on Veda online (**with the institutional email address**) and request ETSAP for free access for students.
     * On approval, anyone who registers with an email address from that institution will have access to the free platform.
 
+.. _Request access: ggian@etsap.org,info@kanors.com
+
+
 Model folders must reside on GitHub to be used on Veda online. There are `YouTube videos <https://www.youtube.com/watch?v=gLMRdA0Ogok&list=PLED97cPMXPOl1o4f3Xx5QZEBzswd4Watc>`_ to introduce new users to the platform.
 
 Features of the free platform
