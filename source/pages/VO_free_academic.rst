@@ -7,7 +7,10 @@ ETSAP and KanORS have created a free online platform where students can learn Ve
 Getting started
 ===============
 
-    * A permanent staff member of a degree granting institution needs to `register on Veda online <https://vedaonline.cloud/Signup.aspx>`_ (**with the institutional email address**) and `request ETSAP <ggian@etsap.org>`_ for free access for students.
+    * .. raw:: html
+
+        <p>A permanent staff member of a degree granting institution needs to <a class="reference external" href="https://vedaonline.cloud/Signup.aspx" target="_blank">register on Veda online</a> (<strong>with the institutional email address</strong>) and <a class="reference external" href="mailto:ggian@etsap.org?subject=Requesting student access to the Veda-TIMES platform&cc=info@kanors.com">request ETSAP</a> for free access for students.</p>
+
     * On approval, anyone who registers with an email address from that institution will have access to the free platform.
 
 
