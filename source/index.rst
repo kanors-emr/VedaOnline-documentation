@@ -21,6 +21,7 @@ Welcome to Veda Online documentation
    pages/Run Manager
    pages/Results
    pages/Reports
+   pages/Version History
    pages/Notes
    pages/Known Issues
 
