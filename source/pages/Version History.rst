@@ -2,10 +2,34 @@
 Version History
 ################
 
+
+2.1.1.0 [2024-08-07]
+----------------------------
+
+**ALL VERSIONS**
+
+    * [New Features]
+        * Batch Export Views to CSV in Results and Reports
+        * Sankey and SankeyLoop available in Pivot tool
+        * Keyboard Controls in View load Panel in Results & Reports
+        * Wildcard added in Filters
+
+    * [Fixes]
+        * Aggregator Badge visibility in Reports
+        * NEOS GDX Ref & Property Group validations
+
+    * [Enhancements]
+        * Added Year Combobox to Filter Data in User Activity Tab
+        * Buttons Description Added/Updated
+        * Filter added to Share study Form
+        * Better Waiting Indicator 
+        
+
+
 2.1.0.0 [2024-07-10]
 ----------------------------
 
-**All Versions:**
+**ALL VERSIONS**
 
 - **Miscellaneous Enhancements:**
 
