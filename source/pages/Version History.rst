@@ -3,6 +3,24 @@ Version History
 ################
 
 
+
+2.1.2.0 [2024-09-07]
+----------------------------
+
+**ALL VERSIONS**
+
+    * [New Features]
+        * RES Diagram expansion for better visualization
+
+    * [Fixes]
+        * Run Log File renaming in NEOS Job Results zip file
+        * Submit Solver options to NEOS Job `See details <https://forum.kanors-emr.org/showthread.php?tid=1437&pid=7690#pid7690>`_
+
+    * [Enhancements]
+        * Jobs Dashboard revamp
+        * Pivot Tool enhancements
+
+
 2.1.1.0 [2024-08-07]
 ----------------------------
 
@@ -22,8 +40,7 @@ Version History
         * Added Year Combobox to Filter Data in User Activity Tab
         * Buttons Description Added/Updated
         * Filter added to Share study Form
-        * Better Waiting Indicator 
-        
+        * Better Waiting Indicator   
 
 
 2.1.0.0 [2024-07-10]
