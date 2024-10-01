@@ -3,6 +3,18 @@ Version History
 ################
 
 
+2.1.3.0 [2024-10-01]
+----------------------------
+
+**ALL VERSIONS**
+
+    * [Fixes]
+        * Fixed radio selection in GDX form
+
+    * [Enhancements]
+        * Results/Reports views export `video <https://kanors-emr.org/vedaonline/videos/Results&ReportsViewsExportAndDownloadViaJobsDashboard.mp4>`_
+        * Study description `video <https://kanors-emr.org/vedaonline/videos/StudyDescriptionUseLastCommitMessage.mp4>`_
+
 
 2.1.2.0 [2024-09-07]
 ----------------------------
