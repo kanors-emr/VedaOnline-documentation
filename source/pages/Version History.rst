@@ -2,6 +2,21 @@
 Version History
 ################
 
+2.1.4.0 [2024-11-19]
+----------------------------
+
+**ALL VERSIONS**
+
+    * [New Features]
+        * Cancel Button on Report Processing
+        * Category and Icons in Result and Report Views 
+
+    * [Enhancements]
+        * Duplicate Column Reporting in Sync Requests
+        * Enhanced Git "Pull" Functionality
+        * Improved Readability in Solve Notification Emails
+        * Jobs Dashboard enhancements
+
 
 2.1.3.0 [2024-10-01]
 ----------------------------
