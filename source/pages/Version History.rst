@@ -2,6 +2,21 @@
 Version History
 ################
 
+2.1.5.0 [2024-12-17]
+----------------------------
+
+**ALL VERSIONS**
+
+    * [Enhancements]
+        * Improved functionality and visual clarity for the RES diagram to enhance user experience and data representation 
+        * Significant improvements in the Pivot UI, including usability upgrades for smoother navigation and better interaction.
+        * Added a notification message window to inform users when no data exists in the selected reports, improving transparency and user guidance.
+
+    * [Fixes]
+        * Enhanced error handling to report issues directly to users when an error occurs during NEOS job execution.
+        * Resolved an out-of-memory issue encountered while downloading large Reports views.
+
+
 2.1.4.0 [2024-11-19]
 ----------------------------
 
