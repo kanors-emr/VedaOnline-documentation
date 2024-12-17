@@ -8,7 +8,7 @@ Version History
 **ALL VERSIONS**
 
     * [Enhancements]
-        * Improved functionality and visual clarity for the RES diagram to enhance user experience and data representation 
+        * Improved functionality and visual clarity for the RES diagram to enhance user experience and data representation. `video <https://kanors-emr.org/vedaonline/videos/RES_DiagramNewFeautes.mp4>`_ 
         * Significant improvements in the Pivot UI, including usability upgrades for smoother navigation and better interaction.
         * Added a notification message window to inform users when no data exists in the selected reports, improving transparency and user guidance.
 
