@@ -2,6 +2,20 @@
 Version History
 ################
 
+2.1.6.0 [2025-01-06]
+----------------------------
+
+**ALL VERSIONS**
+
+    * [Enhancements]
+        * Support added for CSV export in large views
+		Improved functionality for exporting large views: Users can now easily export CSV files for extensive views, providing enhanced data access and convenience.
+
+    * [Fixes]
+        * Disable Excel Export of Results and Reports views 
+		Excel export for Results and Reports views has been disabled to optimize data handling and system performance, as Excel cannot accommodate more than 1,048,576 rows in a single worksheet.
+
+
 2.1.5.0 [2024-12-17]
 ----------------------------
 
