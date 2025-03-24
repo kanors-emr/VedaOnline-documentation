@@ -11,6 +11,7 @@ Welcome to Veda Online documentation
    :caption: Contents:
 
    pages/introduction
+   pages/OSeMOSYS
    pages/VO_free_academic
    pages/Comparing V2 and VO
    pages/Registration
