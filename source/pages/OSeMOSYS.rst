@@ -2,15 +2,15 @@
 OSeMOSYS in Veda
 #################
 
-You can start with your CSV files and Veda will take care of the rest.
-#################################################################################################################
+Not a Black Box — Trust the Process? Allow us to explain.
+##########################################################
 When extending Veda to support OSeMOSYS, we didn’t build an entirely new system.  
 The core of Veda — its robust and well-defined **data containers** (database tables) — was already in place, designed to store structured modeling information derived from TIMES input files.
  
 Previously, a specific **reading methodology** and a set of processing rules allowed Veda to populate these containers using TIMES data.  
 With the integration of OSeMOSYS, we have now implemented an **additional reading methodology** and made targeted **adjustments to the rules** to interpret OSeMOSYS CSV inputs in a consistent and reliable manner.
  
-Through carefully designed **mappings**, the OSeMOSYS data is translated and populated into the same underlying containers used by TIMES models.  
+Through carefully designed **mappings** (see tables below), the OSeMOSYS data is translated and populated into the same underlying containers used by TIMES models.  
 This reinforces a critical architectural strength of Veda:
  
     These data containers are **not bound to any one modeling framework** — they are designed to be flexible and extensible.
@@ -29,23 +29,7 @@ This integration means that the **OSeMOSYS community now gains access to a tool 
 Every UI element, every workflow enhancement, and every analytical tool in Veda reflects years of feedback, iterations, and real-world usage.
  
 Now, that same depth of capability is available to **OSeMOSYS users** — without compromise.
-
-
  
-
-Not a Black Box — Trust the Process? Allow us to explain.
-#################################################################################################################
-
-Veda is model framework independent energy modelling Software.It can accept data from TIMES, now OSeMOSYS and in future from any other model frameworks as well.
-Users are expected to have CSV files as starting point. Each file contains data for one parameter or set only.
-
-All the data in OSeMOSYS model(CSV files) are treated as base scenario. With the help of Veda Application you can create multiple scenarios. 
-
-The data in CSV files are processed and stored in Veda database. 
-
-
-
-At the core of this function is a flexible mapping system powered by below tables which defines how each OSeMOSYS parameters and sets corresponds to one or more TIMES parameters and sets.
 
 OSeMOSYS and TIMES Sets mapping
 ------------------------------------------
@@ -54,13 +38,13 @@ OSeMOSYS and TIMES Sets mapping
    :header: "name","times_set","index"
    
    
-
 OSeMOSYS and TIMES Parameters mapping
 ------------------------------------------
 .. csv-table::  
    :file: parameter.csv
    :header: "name","times_parameter","indices","topology_in_out","process_set_name","commodity_set_name","category"
-     
+
+
 Topology is defined using the following parameters
 ------------------------------------------------------------------------------------
    * InputActivityRatio
@@ -75,9 +59,14 @@ Type and Set Identification
    * All Technologies Set = PRE
    * All Technologies having TradeRoute parameter defined Type and Set  IRE 
    * ReserveMarginTagTechnology Technologies Type and Set ELE 
-   * Commodities of SubType ELC which are deined as "IN" and "OUT" both in toplogy for such non storage processes. Type and Set IRE
+   * Commodities of SubType ELC which are defined as "IN" and "OUT" both in toplogy for such non storage processes. Type and Set IRE
 
 Primary Commodity Group identification
 ------------------------------------------
    * Commodities of SubType ELC which are deined as "OUT" in toplogy for such process commodity combination. PCG = Commodity 
    * Commodities of SubType ELC which are deined as "IN" and "OUT" both in toplogy for such non storage processes. Type and Set IRE. PCG = NRG 
+
+You can start with your CSV files and Veda will take care of the rest.
+----------------------------------------------------------------------
+Users are expected to have CSV files as starting point. Each file contains data for one parameter or set only.
+All the data in OSeMOSYS model(CSV files) are treated as base scenario. With the help of Veda Application you can create multiple scenarios. 
