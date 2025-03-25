@@ -35,14 +35,14 @@ OSeMOSYS and TIMES Sets mapping
 ------------------------------------------
 .. csv-table::  
    :file: sets.csv
-   :header: "name","times_set","index"
+   :header-rows: 1
    
    
 OSeMOSYS and TIMES Parameters mapping
 ------------------------------------------
 .. csv-table::  
    :file: parameter.csv
-   :header: "name","times_parameter","indices","topology_in_out","process_set_name","commodity_set_name","category"
+   :header-rows: 1
 
 
 Topology is defined using the following parameters
