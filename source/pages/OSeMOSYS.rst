@@ -29,19 +29,33 @@ This integration means that the **OSeMOSYS community now gains access to a tool 
 Every UI element, every workflow enhancement, and every analytical tool in Veda reflects years of feedback, iterations, and real-world usage.
  
 Now, that same depth of capability is available to **OSeMOSYS users** — without compromise.
- 
+
+
+OSeMOSYS Parameters list
+------------------------------------------
+.. csv-table::
+   :file: parameter-list.csv
+   :header-rows: 1
+
+
+OSeMOSYS and TIMES Parameters mapping
+------------------------------------------
+.. csv-table::
+   :file: parameter-mapping.csv
+   :header-rows: 1
+
 
 OSeMOSYS and TIMES Sets mapping
 ------------------------------------------
 .. csv-table::  
    :file: sets.csv
    :header-rows: 1
-   
-   
-OSeMOSYS and TIMES Parameters mapping
+
+
+OSeMOSYS and TIMES result variables mapping
 ------------------------------------------
-.. csv-table::  
-   :file: parameter.csv
+.. csv-table::
+   :file: result_variables.csv
    :header-rows: 1
 
 
