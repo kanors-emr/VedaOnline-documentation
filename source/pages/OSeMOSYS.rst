@@ -1,13 +1,13 @@
 ##########
-Main Menu
+OSeMOSYS
 ##########
 
 How we have processed the OSeMOSYS csv files?
-----------------------------------------------
-The OSeMOSYS csv files are processed in the following way:
+==============================================
+At the core of this function is a flexible mapping system powered by below tables which defines how each OSeMOSYS parameters and sets corresponds to one or more TIMES parameters and sets.
 
 
-OSeMOSYS Sets mapping with Veda Parameters
+OSeMOSYS Sets mapping TIMES Sets mapping
 ------------------------------------------
 
 .. csv-table::  
@@ -16,7 +16,7 @@ OSeMOSYS Sets mapping with Veda Parameters
    
    
 
-OSeMOSYS Sets mapping with Veda Parameters
+OSeMOSYS and TIMES Parameters mapping
 ------------------------------------------
 .. csv-table::  
    :file: parameter.csv
