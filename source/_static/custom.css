@@ -1,4 +1,7 @@
-.wy-nav-content {max-width: 1200px;}
+/* Furo theme customizations */
+main {
+    max-width: 1200px;
+}
 
 h1 {font-size: 40px;}
 
