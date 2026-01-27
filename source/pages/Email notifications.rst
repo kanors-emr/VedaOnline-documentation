@@ -1,4 +1,4 @@
-Email Notifications in Veda Online
+Email Notifications
 =================================
 
 This document explains **how email notifications work in Veda Online**, what triggers an email, who receives it, and how users can control notifications easily.
@@ -18,17 +18,25 @@ Both conditions must be satisfied.
 What Will I Get an Email For?
 --------------------------------------------------
 
-+--------------------+--------------------------------------------+-------------------------------+
-| Action you perform | Will you get an email?                     | Who receives the email        |
-+====================+============================================+===============================+
-| Sync a model       | If Profile + Navigator checkbox are enabled| Only you                      |
-+--------------------+--------------------------------------------+-------------------------------+
-| Run (Solve) model  | If Profile + Run checkbox are enabled      | You + study collaborators    |
-+--------------------+--------------------------------------------+-------------------------------+
-| Process Results    | If enabled in User Profile                 | Only you                      |
-+--------------------+--------------------------------------------+-------------------------------+
-| Process Reports    | If enabled in User Profile                 | You + study collaborators    |
-+--------------------+--------------------------------------------+-------------------------------+
+.. list-table:: Email triggers and recipients
+   :header-rows: 1
+   :widths: 25 45 30
+
+   * - Action you perform
+     - Will you get an email?
+     - Who receives the email
+   * - Sync a model
+     - If Profile + Navigator checkbox are enabled
+     - Only you
+   * - Run (Solve) model
+     - If Profile + Run checkbox are enabled
+     - You + study collaborators
+   * - Process Results
+     - If enabled in User Profile
+     - Only you
+   * - Process Reports
+     - If enabled in User Profile
+     - You + study collaborators
 
 --------------------------------------------------
 1. User Profile – Global Email Settings
@@ -41,6 +49,12 @@ The **User Profile** acts as the master control for email notifications.
 
 Available Options
 -----------------
+
+.. figure:: images/email_userprofile.png
+   :alt: Email notification settings in the User Profile
+   :align: center
+
+   User Profile – Email Notifications
 
 - **Navigator Sync** – Emails for model synchronization
 - **Runs Solve** – Emails when a model run (solve) completes
@@ -62,6 +76,12 @@ In the **Navigator** module, an **Email** checkbox is available next to the **Sy
 
 Behavior
 --------
+
+.. figure:: images/email_navigator.png
+   :alt: Navigator sync email checkbox
+   :align: center
+
+   Navigator – Sync email checkbox
 
 - Default state comes from your **User Profile**
 - If unchecked, **no email** is sent for that sync
@@ -87,6 +107,12 @@ In the **Run Manager**, an **Email** checkbox is available in Run Settings.
 
 Behavior
 --------
+
+.. figure:: images/email_runmanager.png
+   :alt: Run Manager email checkbox
+   :align: center
+
+   Run Manager – Email checkbox
 
 - Default state comes from your **User Profile**
 - When checked, an email is sent after the run completes
@@ -174,37 +200,15 @@ Important Difference: Results vs Reports
 
 The following system-level emails are **always sent** and are **not affected** by User Profile email settings:
 
-+-------------------------+----------------+
-| Event                   | Email Sent To |
-+=========================+================+
-| New user registration   | User, Admins  |
-+-------------------------+----------------+
-| Licensing notifications | User, Admins  |
-+-------------------------+----------------+
-| Resource purchased      | User, Admins  |
-+-------------------------+----------------+
+.. list-table:: System emails
+   :header-rows: 1
+   :widths: 70 30
 
---------------------------------------------------
-Email Notification Flow (Simple Logic)
---------------------------------------------------
-
-::
-
-    User Profile allows email?
-            ↓ Yes
-    Action has Email checkbox?
-            ↓ Yes
-    Checkbox checked?
-            ↓ Yes
-    Email is sent
-
---------------------------------------------------
-Final Notes
---------------------------------------------------
-
-- User Profile controls **global behavior**
-- Checkboxes allow **per-action flexibility**
-- Collaborator emails vary by module and are intentional
-- System emails are always delivered
-
-This design ensures flexibility while preventing unnecessary or accidental email notifications.
+   * - Event
+     - Email Sent To
+   * - New user registration
+     - User, Admins
+   * - Licensing notifications
+     - User, Admins
+   * - Resource purchased
+     - User, Admins
