@@ -40,12 +40,14 @@ User Inputs
 ^^^^^^^^^^^
 .. image:: images/navigator_menu.png
    :align: center
+
 #. *Start from Scratch* - This button deletes the previous model data from the database and pulls all the files from the GitHub repository. You have to resynchronize your model. Reports Module data will not be deleted.
 #. *Pull* - Here all the files from the git repository will be pulled but all your data in the VedaOnline database will not change.
 #. *Commits* - Check your GitHub commits directly on VedaOnline.
 #. *Email Checkbox* - After Synchronization is finished, if this checkbox is unchecked then VO will not send you the email. 
 #. *Synchronize* - It will process all templates in the application folder marked(Selected files) as ToImport(orange)
 #. *Options Menu*
+
  * NoSeedValue Scenario
  * Tag Details
 
@@ -53,7 +55,9 @@ File Status
 ^^^^^^^^^^^
 .. image:: images/nav_files_status_legend.png
    :align: center
+
 Provides feedback as to the status of the various files and the integrated database managed by Veda according to color legend at the bottom of form
+
  * *Not imported* – not yet read into the database
  * *Imported* – selected for importing with next SYNC
  * *Consistent* – templates that are in sync with the database

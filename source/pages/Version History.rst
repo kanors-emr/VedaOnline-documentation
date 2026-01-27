@@ -22,7 +22,7 @@ Version History
 **ALL VERSIONS**
 
     * [Enhancements]
-        * Improved functionality and visual clarity for the RES diagram to enhance user experience and data representation. `video <https://kanors-emr.org/vedaonline/videos/RES_DiagramNewFeautes.mp4>`_ 
+        * Improved functionality and visual clarity for the RES diagram to enhance user experience and data representation. `RES Diagram video <https://www.kanors-emr.org/vedaonline/videos/RES_DiagramNewFeautes.mp4>`_ 
         * Significant improvements in the Pivot UI, including usability upgrades for smoother navigation and better interaction.
         * Added a notification message window to inform users when no data exists in the selected reports, improving transparency and user guidance.
 
@@ -56,8 +56,8 @@ Version History
         * Fixed radio selection in GDX form
 
     * [Enhancements]
-        * Results/Reports views export `video <https://kanors-emr.org/vedaonline/videos/Results&ReportsViewsExportAndDownloadViaJobsDashboard.mp4>`_
-        * Study description `video <https://kanors-emr.org/vedaonline/videos/StudyDescriptionUseLastCommitMessage.mp4>`_
+        * Results/Reports views export `Results/Reports export video <https://www.kanors-emr.org/vedaonline/videos/Results&ReportsViewsExportAndDownloadViaJobsDashboard.mp4>`_
+        * Study description `Study description video <https://www.kanors-emr.org/vedaonline/videos/StudyDescriptionUseLastCommitMessage.mp4>`_
 
 
 2.1.2.0 [2024-09-07]

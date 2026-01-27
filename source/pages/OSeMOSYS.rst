@@ -53,7 +53,7 @@ OSeMOSYS and TIMES Sets mapping
 
 
 OSeMOSYS and TIMES result variables mapping
-------------------------------------------
+--------------------------------------------
 .. csv-table::
    :file: result_variables.csv
    :header-rows: 1
