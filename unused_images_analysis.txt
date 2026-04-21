@@ -1,0 +1,83 @@
+IMAGE USAGE ANALYSIS
+====================
+
+REFERENCED IMAGES (33 total):
+-----------------------------
+Main folder (20):
+1. email_userprofile.png
+2. email_navigator.png
+3. email_runmanager.png
+4. navigator.png
+5. navigator_menu.png
+6. nav_files_status_legend.png
+7. TIMES_process.PNG
+8. new_items_detail.PNG
+9. items_view_pivot.PNG
+10. items_view_detail_view.PNG
+11. items_view_input_output.PNG
+12. items_view_network_diag.PNG
+13. run_manager_1.PNG
+14. case_definition.png
+15. cases_grid.png
+16. Browse.png
+17. browse_set.png
+18. veda_folder_structure.png
+19. data_flow_and_files.PNG
+20. results_functionality.png
+
+Reports subfolder (13):
+1. Reports/varbls_on_com_sets.PNG
+2. Reports/agg_on_varbls-process.PNG
+3. Reports/agg_on_varbls-region.PNG
+4. Reports/coarser_varbls.PNG
+5. Reports/agg_on_comm_grps.PNG
+6. Reports/agg_on_process.PNG
+7. Reports/Veda_reports_viewer.PNG
+8. Reports/csv_output_reports.PNG
+9. Reports/main_energy_forms.PNG
+10. Reports/lma_road_transport.PNG
+11. Reports/lma_power_gen.PNG
+12. Reports/power_gen_alt_view.PNG
+13. Reports/power_gen_alt_view-2.PNG
+
+UNUSED IMAGES (32 total):
+-------------------------
+Main folder (32):
+1. veda_versions.png
+2. veda_tags.PNG
+3. uninstall.PNG
+4. times_attributes.png
+5. tag_details.PNG
+6. sync_log_all.PNG
+7. stop_server.PNG
+8. solve_cmd.png
+9. save_backup_form.PNG
+10. restore_form.PNG
+11. restore_case_run_manager.png
+12. old_veda_ref_case.png
+13. nsv_candidates.PNG
+14. new_times_attributes.PNG
+15. new_items_list.PNG
+16. new_sync_window.PNG
+17. new_models_list-2.PNG
+18. module_buttons.png
+19. manage_duplicates.PNG
+20. maintenance_status_2.PNG
+21. license_form.png
+22. lickey_information.PNG
+23. items_list.png
+24. items_detail.png
+25. information_tag_details.png
+26. dd_files.PNG
+27. Veda_Premature_Error.PNG
+28. Start_page_04Aug21.PNG
+29. UD_sets_usage.PNG
+30. backup_state_menu.PNG
+31. add_dir_button.PNG
+32. Advancedfunction_Export_Cases.PNG
+
+SUMMARY:
+--------
+Total images: 65
+Referenced: 33 (50.8%)
+Unused: 32 (49.2%)

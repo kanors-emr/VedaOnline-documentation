@@ -11,5 +11,5 @@ Used to analyse TIMES model results. Results are all stored in the model folder 
 	(<model folder>/AppData/ResultsView.json)
 * Batch export: to export results in excel and CSV.
 
-.. image:: images/results_functionality.png
+.. image:: ../images/results_functionality.png
     :width: 600

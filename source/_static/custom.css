@@ -3,8 +3,83 @@ main {
     max-width: 1200px;
 }
 
-h1 {font-size: 40px;}
-
-h2 {font-size: 30px;}
-
+h1 { font-size: 40px; }
+h2 { font-size: 30px; }
 h3 { font-size: 20px; }
+
+/* ----- Sidebar navigation: consistent, professional link colours ----- */
+/* Problem: global :visited (periwinkle) + coral “active” mixed with brand blue. */
+/* Fix: sidebar links always use sidebar tokens; current page = weight + tint, not a third colour. */
+
+.sidebar-scroll .sidebar-tree a.reference,
+.sidebar-scroll .sidebar-tree a.reference:visited {
+    color: var(--color-sidebar-link-text) !important;
+}
+
+/* Parent section links (Getting started, Model workspace, …) */
+.sidebar-scroll .sidebar-tree li.toctree-l1 > a.reference {
+    font-weight: 600;
+    letter-spacing: 0.01em;
+}
+
+/* Current page: brand emphasis, not a random accent */
+.sidebar-scroll .sidebar-tree li.current > a.reference,
+.sidebar-scroll .sidebar-tree li.current-page > a.reference,
+.sidebar-scroll .sidebar-tree a.current.reference {
+    color: var(--color-sidebar-link-text) !important;
+    font-weight: 600;
+}
+
+.sidebar-scroll .sidebar-tree li.toctree-l1.current,
+.sidebar-scroll .sidebar-tree li.toctree-l2.current,
+.sidebar-scroll .sidebar-tree li.toctree-l3.current {
+    background: rgba(26, 77, 122, 0.09);
+    border-radius: 6px;
+}
+
+/* Nested items under an open section */
+.sidebar-scroll .sidebar-tree li.toctree-l2.current,
+.sidebar-scroll .sidebar-tree li.toctree-l3.current {
+    background: rgba(26, 77, 122, 0.07);
+}
+
+/* “Contents:” caption */
+.sidebar-scroll .sidebar-tree p.caption {
+    font-weight: 700;
+    font-size: 0.72rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-foreground-secondary);
+    margin-top: 0.5rem;
+    margin-bottom: 0.35rem;
+}
+
+/* Hover: same blue family as body text (avoid random coral in nav) */
+.sidebar-scroll .sidebar-tree a.reference:hover {
+    color: #2563a8 !important;
+}
+
+body[data-theme="dark"] .sidebar-scroll .sidebar-tree a.reference:hover {
+    color: #b8d4f0 !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    body:not([data-theme="light"]) .sidebar-scroll .sidebar-tree a.reference:hover {
+        color: #b8d4f0 !important;
+    }
+}
+
+/* Dark theme */
+body[data-theme="dark"] .sidebar-scroll .sidebar-tree li.toctree-l1.current,
+body[data-theme="dark"] .sidebar-scroll .sidebar-tree li.toctree-l2.current,
+body[data-theme="dark"] .sidebar-scroll .sidebar-tree li.toctree-l3.current {
+    background: rgba(255, 255, 255, 0.06);
+}
+
+@media (prefers-color-scheme: dark) {
+    body:not([data-theme="light"]) .sidebar-scroll .sidebar-tree li.toctree-l1.current,
+    body:not([data-theme="light"]) .sidebar-scroll .sidebar-tree li.toctree-l2.current,
+    body:not([data-theme="light"]) .sidebar-scroll .sidebar-tree li.toctree-l3.current {
+        background: rgba(255, 255, 255, 0.06);
+    }
+}

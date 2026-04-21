@@ -14,7 +14,7 @@ Overview
     * Settings
     * Properties
 
-.. image:: images/run_manager_1.PNG
+.. image:: ../images/run_manager_1.PNG
     :width: 600
 
 Modifying RUN files
@@ -25,7 +25,7 @@ at the top or bottom of scenario DD files (last two attributes in the table belo
 
 
 .. csv-table::
-        :file: tables/times_switches/Times_switches_attr_loc.csv
+        :file: ../tables/times_switches/Times_switches_attr_loc.csv
         :widths: 1,1,1
         :header-rows: 1
 
@@ -41,7 +41,7 @@ the blocks will be ordered as per the order of scenarios in the case definition.
 These examples are available in the `Advanced Demo <https://github.com/kanors-emr/Model_Demo_Adv_Veda.git>`_ model.
 
 .. csv-table:: Example 1
-        :file: tables/times_switches/Example1.csv
+        :file: ../tables/times_switches/Example1.csv
         :widths: 20,35,15,5,50
         :header-rows: 2
 
@@ -50,13 +50,13 @@ If you want to use single quotes <'> in your instructions, then it is necessary 
 process instead of IMPNRGZ; it will have no impact on the outcome.
 
 .. csv-table:: Example 2
-        :file: tables/times_switches/Example2.csv
+        :file: ../tables/times_switches/Example2.csv
         :widths: 20,50,30
         :header-rows: 2
 
 Case definition
 ================
-.. image:: images/case_definition.png
+.. image:: ../images/case_definition.png
     :width: 400
 
 * Create a New Case by providing the core information for the case definition
@@ -77,7 +77,7 @@ Case definition
 Model run submission
 =====================
 
-.. image:: images/cases_grid.png
+.. image:: ../images/cases_grid.png
     :height: 150
 
 * Select one (or more) of the cases in the Managed Save Cases section and click SOLVE

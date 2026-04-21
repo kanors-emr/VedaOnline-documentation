@@ -10,22 +10,11 @@ Welcome to Veda Online documentation
    :maxdepth: 2
    :caption: Contents:
 
-   pages/introduction
-   pages/OSeMOSYS
-   pages/VO_free_academic
-   pages/Comparing V2 and VO
-   pages/Registration
-   pages/Veda Menu
-   pages/Navigator
-   pages/Browse
-   pages/Items detail
-   pages/Run Manager
-   pages/Results
-   pages/Reports
-   pages/Email notifications
-   pages/Version History
+   pages/Getting started
+   pages/model_workspace/Model workspace
+   pages/User account and tools
    pages/Notes
-   pages/Known Issues
+   pages/Release and support
 
 Indices and tables
 ==================

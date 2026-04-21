@@ -7,7 +7,7 @@ Navigator
 * The Navigator is the main vehicle for accessing, importing, and coordinating the various templates that make up a model.
 * Its main screen is divided into sub-windows according to the various types of templates managed by Veda.
 
-.. image:: images/navigator.png
+.. image:: ../images/navigator.png
    :align: center
 
 
@@ -38,7 +38,7 @@ After synchronizing a model, you can return to the Navigator.
 
 User Inputs
 ^^^^^^^^^^^
-.. image:: images/navigator_menu.png
+.. image:: ../images/navigator_menu.png
    :align: center
 
 #. *Start from Scratch* - This button deletes the previous model data from the database and pulls all the files from the GitHub repository. You have to resynchronize your model. Reports Module data will not be deleted.
@@ -53,7 +53,7 @@ User Inputs
 
 File Status
 ^^^^^^^^^^^
-.. image:: images/nav_files_status_legend.png
+.. image:: ../images/nav_files_status_legend.png
    :align: center
 
 Provides feedback as to the status of the various files and the integrated database managed by Veda according to color legend at the bottom of form

@@ -12,7 +12,7 @@ Browsing model input is **necessary** for two reasons:
     * Browse presents the actual model data.
 
 
-.. image:: images/Browse.png
+.. image:: ../images/Browse.png
    :align: center
    
 
@@ -27,7 +27,7 @@ How to use it?
 * Browse Select minimum one elements from any of the elements list and click on Browse button to load data in Pivot Grid.
 * Filtering by Sets- In Process and Commodity element list, you can select User or TIMES Set from dropdown list as shown in below figure. Selected set will filter the elements linked to the Set.
 
-.. image:: images/browse_set.png
+.. image:: ../images/browse_set.png
    :align: center
    
 .. note::
