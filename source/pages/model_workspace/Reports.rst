@@ -19,8 +19,9 @@ energy balances to show historical trends in summary views, and to set up calibr
 per-capita or per unit of GDP.
 
 .. note::
-    * Examples in this section are based on the `JRC_EU-TIMES model <https://github.com/KanORS-E4SMA/EU_TIMES_Veda2.0>`_. Readers can find more examples in the file LMADefs-EU_TIMES.xlsm.
-    * Reports feature is active in Trial licenses.
+
+   * Examples in this section are based on the `JRC_EU-TIMES model <https://github.com/KanORS-E4SMA/EU_TIMES_Veda2.0>`_. Readers can find more examples in the file LMADefs-EU_TIMES.xlsm.
+   * Reports feature is active in Trial licenses.
 
 
 Core mechanics of Report creation
@@ -28,8 +29,9 @@ Core mechanics of Report creation
 * The Reports menu can be used to select scenarios, across models and users
 * Reports are defined in an Excel file (like the Set definitions file)
 * There are two basic types of instructions:
-    * Creating variables via combination of attribute, process, commodity, timeslice, and user constraint.
-    * Creating aggregations based on variable, process, commodity and region.
+
+  * Creating variables via combination of attribute, process, commodity, timeslice, and user constraint.
+  * Creating aggregations based on variable, process, commodity and region.
 
 Variables can be created based on process/commodity sets
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -109,12 +111,15 @@ Advanced features
 * Sankey diagrams: Reports functionality can be used to prepare data for Sankey diagrams. See the report definitions file in JRC_EU-TIMES for one way to do this.
 * Unit conversion: **~UnitConv** tag can be used to convert units. For example, EProd variables can have **PJe** as the unit, which can be converted to **Twh** in the report.
 * Including exogenous data
-    * Historical trends/calibration check
-    * Producing per/capita and per/GDP metrics
+
+  * Historical trends/calibration check
+  * Producing per/capita and per/GDP metrics
+
 * Special attributes: some ratios are computed based on naming conventions of variables. These are dynamic weighted averages.
-    * Utilization factors
-    * Efficiency (by DEM)
-    * CO2 intensity (by DEM)
+
+  * Utilization factors
+  * Efficiency (by DEM)
+  * CO2 intensity (by DEM)
 
 .. note::
     It is recommended that one uses "pc" in the "show_me" column when creating new variables, to check the validity of variables and aggregations. Aggregating them makes the reports lighter, so it should be done when possible.

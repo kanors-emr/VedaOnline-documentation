@@ -9,10 +9,11 @@ Overview
 
 * The Run Manager is used to compose and submit model runs
 * Each model run is based on a Case definition comprising:
-    * Scenarios
-    * Regions
-    * Settings
-    * Properties
+
+  * Scenarios
+  * Regions
+  * Settings
+  * Properties
 
 .. image:: ../images/run_manager_1.PNG
     :width: 600
@@ -60,18 +61,19 @@ Case definition
     :width: 400
 
 * Create a New Case by providing the core information for the case definition
-    * Case Name - name of the case
-    * Description - description of the case
-    * Scenario Group - scenarios to be included in this run
-    * Region Group - regions to be included in this run
-    * Parametric Group - driver scenario for a suite of runs
-    * Properties Group - what GAMS options/switch are to be employed
-    * Periods Definition - period definition for the run
-    * Ending Year - last period for the run
-    * Source TIMES - where does the TIMES code reside
-    * Solver - which solver is to be used
-    * Solver Options - which solver options to use
-    * GDX References - GDX files to be used for freezing periods, elastic demand base prices or IRE bounds/prices
+
+  * Case Name - name of the case
+  * Description - description of the case
+  * Scenario Group - scenarios to be included in this run
+  * Region Group - regions to be included in this run
+  * Parametric Group - driver scenario for a suite of runs
+  * Properties Group - what GAMS options/switch are to be employed
+  * Periods Definition - period definition for the run
+  * Ending Year - last period for the run
+  * Source TIMES - where does the TIMES code reside
+  * Solver - which solver is to be used
+  * Solver Options - which solver options to use
+  * GDX References - GDX files to be used for freezing periods, elastic demand base prices or IRE bounds/prices
 
 
 Model run submission

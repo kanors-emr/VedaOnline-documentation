@@ -61,24 +61,27 @@ OSeMOSYS and TIMES result variables mapping
 
 Topology is defined using the following parameters
 ------------------------------------------------------------------------------------
-   * InputActivityRatio
-   * OutputActivityRatio
-   * EmissionActivityRatio
+
+* InputActivityRatio
+* OutputActivityRatio
+* EmissionActivityRatio
 
 Type and Set Identification
 ------------------------------------------
-   * Emission commdities - Commodity Set ENV 
-   * Fuel commdities - Commodity Set NRG
-   * ReserveMarginTagFuel comodities - Type and Set NRG, SubType ELC
-   * All Technologies Set = PRE
-   * All Technologies having TradeRoute parameter defined Type and Set  IRE 
-   * ReserveMarginTagTechnology Technologies Type and Set ELE 
-   * Commodities of SubType ELC which are defined as "IN" and "OUT" both in toplogy for such non storage processes. Type and Set IRE
+
+* Emission commdities - Commodity Set ENV
+* Fuel commdities - Commodity Set NRG
+* ReserveMarginTagFuel comodities - Type and Set NRG, SubType ELC
+* All Technologies Set = PRE
+* All Technologies having TradeRoute parameter defined Type and Set  IRE
+* ReserveMarginTagTechnology Technologies Type and Set ELE
+* Commodities of SubType ELC which are defined as "IN" and "OUT" both in toplogy for such non storage processes. Type and Set IRE
 
 Primary Commodity Group identification
 ------------------------------------------
-   * Commodities of SubType ELC which are deined as "OUT" in toplogy for such process commodity combination. PCG = Commodity 
-   * Commodities of SubType ELC which are deined as "IN" and "OUT" both in toplogy for such non storage processes. Type and Set IRE. PCG = NRG 
+
+* Commodities of SubType ELC which are deined as "OUT" in toplogy for such process commodity combination. PCG = Commodity
+* Commodities of SubType ELC which are deined as "IN" and "OUT" both in toplogy for such non storage processes. Type and Set IRE. PCG = NRG
 
 You can start with your CSV files and Veda will take care of the rest.
 ----------------------------------------------------------------------

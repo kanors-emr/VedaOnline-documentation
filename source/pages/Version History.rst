@@ -7,13 +7,15 @@ Version History
 
 **ALL VERSIONS**
 
-    * [Enhancements]
-        * Support added for CSV export in large views
-		Improved functionality for exporting large views: Users can now easily export CSV files for extensive views, providing enhanced data access and convenience.
+* [Enhancements]
 
-    * [Fixes]
-        * Disable Excel Export of Results and Reports views 
-		Excel export for Results and Reports views has been disabled to optimize data handling and system performance, as Excel cannot accommodate more than 1,048,576 rows in a single worksheet.
+  * Support added for CSV export in large views
+    Improved functionality for exporting large views: Users can now easily export CSV files for extensive views, providing enhanced data access and convenience.
+
+* [Fixes]
+
+  * Disable Excel Export of Results and Reports views
+    Excel export for Results and Reports views has been disabled to optimize data handling and system performance, as Excel cannot accommodate more than 1,048,576 rows in a single worksheet.
 
 
 2.1.5.0 [2024-12-17]
@@ -21,14 +23,16 @@ Version History
 
 **ALL VERSIONS**
 
-    * [Enhancements]
-        * Improved functionality and visual clarity for the RES diagram to enhance user experience and data representation. `RES Diagram video <https://www.kanors-emr.org/vedaonline/videos/RES_DiagramNewFeautes.mp4>`_ 
-        * Significant improvements in the Pivot UI, including usability upgrades for smoother navigation and better interaction.
-        * Added a notification message window to inform users when no data exists in the selected reports, improving transparency and user guidance.
+* [Enhancements]
 
-    * [Fixes]
-        * Enhanced error handling to report issues directly to users when an error occurs during NEOS job execution.
-        * Resolved an out-of-memory issue encountered while downloading large Reports views.
+  * Improved functionality and visual clarity for the RES diagram to enhance user experience and data representation. `RES Diagram video <https://www.kanors-emr.org/vedaonline/videos/RES_DiagramNewFeautes.mp4>`_
+  * Significant improvements in the Pivot UI, including usability upgrades for smoother navigation and better interaction.
+  * Added a notification message window to inform users when no data exists in the selected reports, improving transparency and user guidance.
+
+* [Fixes]
+
+  * Enhanced error handling to report issues directly to users when an error occurs during NEOS job execution.
+  * Resolved an out-of-memory issue encountered while downloading large Reports views.
 
 
 2.1.4.0 [2024-11-19]
@@ -36,15 +40,17 @@ Version History
 
 **ALL VERSIONS**
 
-    * [New Features]
-        * Cancel Button on Report Processing
-        * Category and Icons in Result and Report Views 
+* [New Features]
 
-    * [Enhancements]
-        * Duplicate Column Reporting in Sync Requests
-        * Enhanced Git "Pull" Functionality
-        * Improved Readability in Solve Notification Emails
-        * Jobs Dashboard enhancements
+  * Cancel Button on Report Processing
+  * Category and Icons in Result and Report Views
+
+* [Enhancements]
+
+  * Duplicate Column Reporting in Sync Requests
+  * Enhanced Git "Pull" Functionality
+  * Improved Readability in Solve Notification Emails
+  * Jobs Dashboard enhancements
 
 
 2.1.3.0 [2024-10-01]
@@ -52,12 +58,14 @@ Version History
 
 **ALL VERSIONS**
 
-    * [Fixes]
-        * Fixed radio selection in GDX form
+* [Fixes]
 
-    * [Enhancements]
-        * Results/Reports views export `Results/Reports export video <https://www.kanors-emr.org/vedaonline/videos/Results&ReportsViewsExportAndDownloadViaJobsDashboard.mp4>`_
-        * Study description `Study description video <https://www.kanors-emr.org/vedaonline/videos/StudyDescriptionUseLastCommitMessage.mp4>`_
+  * Fixed radio selection in GDX form
+
+* [Enhancements]
+
+  * Results/Reports views export `Results/Reports export video <https://www.kanors-emr.org/vedaonline/videos/Results&ReportsViewsExportAndDownloadViaJobsDashboard.mp4>`_
+  * Study description `Study description video <https://www.kanors-emr.org/vedaonline/videos/StudyDescriptionUseLastCommitMessage.mp4>`_
 
 
 2.1.2.0 [2024-09-07]
@@ -65,16 +73,19 @@ Version History
 
 **ALL VERSIONS**
 
-    * [New Features]
-        * RES Diagram expansion for better visualization
+* [New Features]
 
-    * [Fixes]
-        * Run Log File renaming in NEOS Job Results zip file
-        * Submit Solver options to NEOS Job `See details <https://forum.kanors-emr.org/showthread.php?tid=1437&pid=7690#pid7690>`_
+  * RES Diagram expansion for better visualization
 
-    * [Enhancements]
-        * Jobs Dashboard revamp
-        * Pivot Tool enhancements
+* [Fixes]
+
+  * Run Log File renaming in NEOS Job Results zip file
+  * Submit Solver options to NEOS Job `See details <https://forum.kanors-emr.org/showthread.php?tid=1437&pid=7690#pid7690>`_
+
+* [Enhancements]
+
+  * Jobs Dashboard revamp
+  * Pivot Tool enhancements
 
 
 2.1.1.0 [2024-08-07]
@@ -82,21 +93,24 @@ Version History
 
 **ALL VERSIONS**
 
-    * [New Features]
-        * Batch Export Views to CSV in Results and Reports
-        * Sankey and SankeyLoop available in Pivot tool
-        * Keyboard Controls in View load Panel in Results & Reports
-        * Wildcard added in Filters
+* [New Features]
 
-    * [Fixes]
-        * Aggregator Badge visibility in Reports
-        * NEOS GDX Ref & Property Group validations
+  * Batch Export Views to CSV in Results and Reports
+  * Sankey and SankeyLoop available in Pivot tool
+  * Keyboard Controls in View load Panel in Results & Reports
+  * Wildcard added in Filters
 
-    * [Enhancements]
-        * Added Year Combobox to Filter Data in User Activity Tab
-        * Buttons Description Added/Updated
-        * Filter added to Share study Form
-        * Better Waiting Indicator   
+* [Fixes]
+
+  * Aggregator Badge visibility in Reports
+  * NEOS GDX Ref & Property Group validations
+
+* [Enhancements]
+
+  * Added Year Combobox to Filter Data in User Activity Tab
+  * Buttons Description Added/Updated
+  * Filter added to Share study Form
+  * Better Waiting Indicator
 
 
 2.1.0.0 [2024-07-10]

@@ -8,6 +8,7 @@ Download run results and import
 If these files are used in Vd import functionality, the file import will fail. This behaviour is currently observed on Google Chrome.
 
 **Workaround:**
-    * Use Mozilla Firefox to download run results files from Jobs Dashboard.
-    * Or, manually replace '_' character with '~' character in file name before using it with Vd import functionality.
+
+* Use Mozilla Firefox to download run results files from Jobs Dashboard.
+* Or, manually replace '_' character with '~' character in file name before using it with Vd import functionality.
 

@@ -8,6 +8,7 @@ These pages introduce Veda Online, help you register and create models, and comp
    :maxdepth: 1
 
    introduction
+   User types and pricing
    About
    OSeMOSYS
    VO_free_academic

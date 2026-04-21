@@ -7,9 +7,10 @@ Browse
    Excel should be used only for the initial and additional data specification. To check the declarations or topology for any particular item, one must use Browse (or Items detail).
 
 Browsing model input is **necessary** for two reasons:
-    * You may have a syntax error and some of your declarations may have been ignored, or read differently from what you intended.
-    * The declarations for a single item may be spread across several Excel files, and you will see them all in one place in this interface.
-    * Browse presents the actual model data.
+
+* You may have a syntax error and some of your declarations may have been ignored, or read differently from what you intended.
+* The declarations for a single item may be spread across several Excel files, and you will see them all in one place in this interface.
+* Browse presents the actual model data.
 
 
 .. image:: ../images/Browse.png

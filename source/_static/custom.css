@@ -83,3 +83,19 @@ body[data-theme="dark"] .sidebar-scroll .sidebar-tree li.toctree-l3.current {
         background: rgba(255, 255, 255, 0.06);
     }
 }
+
+/* ----- Main article: blockquotes from over-indented RST lists ----- */
+/* Site-wide fallback: neutral background, subtle left rule only */
+#furo-main-content blockquote,
+.article-container blockquote {
+    background: transparent;
+    border-left: 3px solid rgba(26, 77, 122, 0.22);
+    padding: 0.35rem 0 0.35rem 1rem;
+    margin: 0.75rem 0 1rem;
+    color: inherit;
+    box-shadow: none;
+}
+
+body[data-theme="dark"] #furo-main-content blockquote {
+    border-left-color: rgba(200, 220, 255, 0.35);
+}
