@@ -2,9 +2,13 @@
 Browse
 ######
 
+Introduction
+------------
+
 .. note::
-   All data declaration for Veda models is done in Excel files. But to *visualize* models, one MUST use the interface and NOT rely on Excel files.
-   Excel should be used only for the initial and additional data specification. To check the declarations or topology for any particular item, one must use Browse (or Items detail).
+
+   All data declarations for Veda models are done in Excel files. To *visualize* the model, use the interface instead of relying on Excel files.
+   Excel should be used for initial and additional data specification. To check declarations or topology for a particular item, use Browse (or Items detail).
 
 Browsing model input is **necessary** for two reasons:
 
@@ -25,11 +29,17 @@ It is possible to rearrange the layout of the cube by adding/removing dimensions
 How to use it?
 ---------------
 
-* Browse Select minimum one elements from any of the elements list and click on Browse button to load data in Pivot Grid.
-* Filtering by Sets- In Process and Commodity element list, you can select User or TIMES Set from dropdown list as shown in below figure. Selected set will filter the elements linked to the Set.
+Load data in Pivot Grid
+^^^^^^^^^^^^^^^^^^^^^^^
+
+* Select at least one element from any element list.
+* Click **Browse** to load data in the Pivot Grid.
+
+Filter using sets
+^^^^^^^^^^^^^^^^^
+
+* In the Process and Commodity element lists, select **User Set** or **TIMES Set** from the dropdown (as shown below).
+* The selected set filters the linked elements.
 
 .. image:: ../images/browse_set.png
    :align: center
-   
-.. note::
-   How to use Pivot Grid? Check here.(Soon)

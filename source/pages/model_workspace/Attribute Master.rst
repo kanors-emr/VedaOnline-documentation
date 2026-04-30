@@ -2,6 +2,21 @@
 Attribute Master
 ################
 
+Introduction
+------------
+
+.. image:: ../images/attribute_master.png
+  :align: center
+  :width: 600px
+
+
 .. note::
 
-   **Coming soon.** This page will describe **Attribute Master** in Veda Online.
+   **Attribute Master** is used to view attribute-related information in Veda Online.
+
+
+How to use it?
+--------------
+
+* Open **Attribute Master** from the Modules row.
+* Review the attribute information shown for the selected model context.

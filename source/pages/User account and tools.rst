@@ -12,3 +12,4 @@ Email preferences, profile options, jobs, imports, and utilities available from 
    Jobs Dashboard
    Import Vd Files
    Gdx Diff
+   Pivot grid
