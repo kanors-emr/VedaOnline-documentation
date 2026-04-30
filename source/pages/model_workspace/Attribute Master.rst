@@ -5,7 +5,7 @@ Attribute Master
 Introduction
 ------------
 
-.. image:: ../images/attribute_master.png
+.. image:: ../images/Attribute_master.png
   :align: center
   :width: 600px
 

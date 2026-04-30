@@ -9,7 +9,7 @@ The **About** module provides general information about the selected model or
 **Presenter Views**. It helps users understand the background, purpose, and important context
 of the model before using other features in VedaOnline.
 
-.. figure:: images/about_modules.PNG
+.. figure:: images/about_modules.png
    :alt: About modules
    :align: center
 

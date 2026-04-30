@@ -62,6 +62,6 @@ Network Diagram
 
 New RES Diagram
 """""""""""""""
-.. image:: ../images/items_view_new_res_diag.PNG
+.. image:: ../images/items_view_new_res_diag.png
     :align: center
     :height: 300px
