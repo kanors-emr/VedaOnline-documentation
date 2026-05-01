@@ -37,6 +37,14 @@ How to use it?
 Where to view the data
 ^^^^^^^^^^^^^^^^^^^^^^
 
+.. note::
+    .. raw:: html
+
+       <span style="color: red;"><strong>Coming soon.</strong></span>
+       Detailed documentation for <strong>Pivot view</strong>, <strong>Detailed view</strong>, <strong>Basic view</strong>,
+       <strong>Network Diagram</strong>, and <strong>New RES Diagram</strong> will be added here.
+       The images below are a visual reference for each mode.
+
 Pivot view
 """"""""""
 .. image:: ../images/items_view_pivot.png

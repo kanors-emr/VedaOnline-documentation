@@ -10,13 +10,12 @@ Introduction
   :width: 600px
 
 
-.. note::
-
-   **Attribute Master** is used to view attribute-related information in Veda Online.
-
-
 How to use it?
 --------------
 
-* Open **Attribute Master** from the Modules row.
-* Review the attribute information shown for the selected model context.
+.. note::
+    .. raw:: html
+
+       <span style="color: red;"><strong>Coming soon.</strong></span>
+       Detailed documentation for <strong>Attribute Master</strong> will be added here.
+       The image below is a visual reference for the <strong>Attribute Master</strong>.

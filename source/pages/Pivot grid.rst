@@ -4,7 +4,7 @@ Pivot Grid
 
 
 Introduction
-^^^^^^^^^^^^
+------------
 
 The Pivot Grid presents assembled model input data in an interactive, pivot-table style interface. It allows users to review the data actually read by the system, validate declarations, and compare related inputs in one view.
 
@@ -12,8 +12,12 @@ The Pivot Grid presents assembled model input data in an interactive, pivot-tabl
    :alt: Pivot Grid
    :align: center
 
+
+How to use it?
+--------------
+
 .. note::
+    .. raw:: html
 
-   .. raw:: html
-
-      <span style="color: red;"><strong>Coming soon.</strong></span> This page will describe the <strong>Pivot Grid</strong> in Veda Online.
+       <span style="color: red;"><strong>Coming soon.</strong></span> Detailed documentation for <strong>Pivot Grid</strong> will be added here.
+       The image below is a visual reference for the <strong>Pivot Grid</strong>.
