@@ -10,7 +10,7 @@ Introduction
 * The Run Manager is used to compose and submit model runs
 * Each model run is based on a Case definition comprising `Run Manager Groups <https://www.youtube.com/watch?v=tE58L8RIBFM&list=PLRCe_SRAk7hOvHdyCuLQ15-6JldaH8Ryu&index=6>`_ :
 
-  .. image:: ../images/new_run_manager_1.png
+  .. image:: ../images/run_manager_1.png
     :align: center
     :width: 600px
 

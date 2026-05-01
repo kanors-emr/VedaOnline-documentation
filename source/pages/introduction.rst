@@ -85,7 +85,7 @@ Files expected in these sub-folders are as under:
 Veda reads these Excel files into a PostgreSQL database, offers tabular and graphical views of the data as TIMES parameters, and submits the data to the TIMES
 code.
 
-.. image:: images/data_flow_and_files.PNG
+.. image:: images/data_flow_and_files.png
     :width: 700
 
 License types (Guest, Trial, Free, Developer, Academic), subscription fees, and GAMS Engine pricing are documented on the page :doc:`User types and pricing`.

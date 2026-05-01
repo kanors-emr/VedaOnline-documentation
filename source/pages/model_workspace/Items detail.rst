@@ -18,7 +18,7 @@ Basic description of a TIMES process
 
 * A typical national model may have ~1000 processes
 
-.. image:: ../images/TIMES_process.PNG
+.. image:: ../images/TIMES_process.png
     :align: center
     
 
@@ -29,7 +29,7 @@ How to use it?
 * Select the region from the drop-down list to filter Process, Commodity, UserConstraint, and Commodity Group.
 * Select an element from the list to see the data.
    
-.. image:: ../images/new_items_detail.PNG
+.. image:: ../images/new_items_detail.png
     :align: center
     :width: 600px
     
@@ -39,24 +39,24 @@ Where to view the data
 
 Pivot view
 """"""""""
-.. image:: ../images/items_view_pivot.PNG
+.. image:: ../images/items_view_pivot.png
     :align: center
 
 Detailed view
 """""""""""""
-.. image:: ../images/items_view_detail_view.PNG
+.. image:: ../images/items_view_detail_view.png
     :align: center
     :height: 200px
 
 Basic view
 """"""""""
-.. image:: ../images/items_view_input_output.PNG
+.. image:: ../images/items_view_input_output.png
     :align: center
     :height: 250px
 
 Network Diagram
 """""""""""""""
-.. image:: ../images/items_view_network_diag.PNG
+.. image:: ../images/items_view_network_diag.png
     :align: center
     :height: 300px
 

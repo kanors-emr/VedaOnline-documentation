@@ -175,7 +175,7 @@ Tag **~TS_Defs** is used to create variables, listed under the column "Name" bel
 TS (Timeslice) and UC_N. "<Pset>" embedded in the variable name creates a separate variable for each set listed in the PSET_SET column. This works for "<Cset>" and "<CName>" as well.
 
 
-.. image:: ../images/Reports/varbls_on_com_sets.PNG
+.. image:: ../images/Reports/varbls_on_com_sets.png
     :width: 600
 
 To be embedded in a variable name, the process set should appear in a table **~PSet_Map**. This has PSet | Desc | LDesc as columns. Text in the Desc column replaces
@@ -187,7 +187,7 @@ Now we have variables by generation technology, but the technology name is embed
 to have the technology name in a separate column. Further, one may want to split these variables by ELE/CHP, which could be identified from the process name. Tags
 **~Varbl_map** and **~Process_map** make this possible, as shown below.
 
-.. image:: ../images/Reports/agg_on_varbls-process.PNG
+.. image:: ../images/Reports/agg_on_varbls-process.png
     :width: 600
 
 
@@ -195,7 +195,7 @@ Aggregations based on Varbl and Region names
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Region groupings can be created using the **~Region_map** tag.
 
-.. image:: ../images/Reports/agg_on_varbls-region.PNG
+.. image:: ../images/Reports/agg_on_varbls-region.png
     :width: 600
 
 
@@ -204,7 +204,7 @@ Coarser Variables can be created too
 In the first example for creating variables, the technology information was embedded in the variable name (via process set). One can create coarser variables if the naming conventions allow extracting this information
 directly from process names. We look at the transport sector reporting for this.
 
-.. image:: ../images/Reports/coarser_varbls.PNG
+.. image:: ../images/Reports/coarser_varbls.png
     :width: 600
 
 
@@ -212,7 +212,7 @@ Aggregations based on Commodity names
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 **~Commodity_map** tag can be used to create commodity aggregations.
 
-.. image:: ../images/Reports/agg_on_comm_grps.PNG
+.. image:: ../images/Reports/agg_on_comm_grps.png
     :width: 600
 
 .. note::
@@ -222,14 +222,14 @@ Aggregations based on Process names
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Multiple dimensions can be extracted from process names.
 
-.. image:: ../images/Reports/agg_on_process.PNG
+.. image:: ../images/Reports/agg_on_process.png
     :width: 600
 
 Viewing Reports
 ---------------
 Veda2.0 has a basic report viewer, which is sufficient to validate the set up of reports and for simple visualizations. Excel export and CSV dumps are possible, like in Results.
 
-.. image:: ../images/Reports/Veda_reports_viewer.PNG
+.. image:: ../images/Reports/Veda_reports_viewer.png
     :width: 600
 
 
@@ -237,7 +237,7 @@ CSV output
 ^^^^^^^^^^
 It can be consumed in applications like Tableau, Power BI, or LMA
 
-.. image:: ../images/Reports/csv_output_reports.PNG
+.. image:: ../images/Reports/csv_output_reports.png
     :width: 600
 
 
@@ -273,7 +273,7 @@ Sources and uses of main energy forms
     <a href="https://lma.vedaviz.com/Presenter/Predex.aspx?pkp=1041&pkv=252583" target="_blank"><b>See it online </a> <i>select energy form</i></b>
 
 
-.. image:: ../images/Reports/main_energy_forms.PNG
+.. image:: ../images/Reports/main_energy_forms.png
     :width: 600
 
 Road transport vehicles
@@ -284,7 +284,7 @@ Road transport vehicles
     <a href="https://lma.vedaviz.com/Presenter/Predex.aspx?pkp=1041&pkv=252590" target="_blank"><b>See it online </a> <i>select region</i></b>
 
 
-.. image:: ../images/Reports/lma_road_transport.PNG
+.. image:: ../images/Reports/lma_road_transport.png
     :width: 600
 
 Power generation
@@ -295,7 +295,7 @@ Power generation
     <a href="https://lma.vedaviz.com/Presenter/Predex.aspx?pkp=1041&pkv=252586" target="_blank"><b>See it online </a> <i>select electricity/hydrogen/heat, and region</i></b>
 
 
-.. image:: ../images/Reports/lma_power_gen.PNG
+.. image:: ../images/Reports/lma_power_gen.png
     :width: 600
 
 Power generation – alternate view
@@ -306,7 +306,7 @@ Power generation – alternate view
     <a href="https://lma.vedaviz.com/Presenter/Predex.aspx?pkp=1041&pkv=252588" target="_blank"><b>See it online </a></b>
 
 
-.. image:: ../images/Reports/power_gen_alt_view.PNG
+.. image:: ../images/Reports/power_gen_alt_view.png
     :width: 600
 
 Power generation – alternate view 2
@@ -317,6 +317,6 @@ Power generation – alternate view 2
     <a href="https://lma.vedaviz.com/Presenter/Predex.aspx?pkp=1041&pkv=252589" target="_blank"><b>See it online </a></b>
 
 
-.. image:: ../images/Reports/power_gen_alt_view-2.PNG
+.. image:: ../images/Reports/power_gen_alt_view-2.png
     :width: 600
 
