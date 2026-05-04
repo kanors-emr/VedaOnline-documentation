@@ -46,44 +46,70 @@ Quadrants
 How to use it?
 --------------
 
-SYNC Operation
-^^^^^^^^^^^^^^
+Toolbar actions
+^^^^^^^^^^^^^^^
 
-Synchronize imports all selected Excel workbooks into the Veda database. The processing can be seen live on the right logging window or on the JobsDashboard page. An e-mail is also sent to the associated user upon on completion. Whether successful or not, sync log details are also sent in the completion e-mail.
-After synchronizing a model, you can return to the Navigator.
-
-User Inputs
-^^^^^^^^^^^
-
-.. image:: ../images/navigator_menu.png
+.. image:: ../images/navigator_toolbar.png
+   :alt: Navigator toolbar
    :align: center
 
-#. **Start from Scratch** - This button deletes the previous model data from the database and pulls all the files from the GitHub repository. You then need to synchronize the model again. Reports module data is not deleted.
-#. **Pull** - Pulls all files from the Git repository without changing your data in the VedaOnline database.
-#. **Commits** - Lets you check your GitHub commits directly in VedaOnline.
-#. **Email Checkbox** - If this checkbox is cleared, VedaOnline will not send an e-mail after synchronization finishes.
-#. **Synchronize** - Processes all templates in the application folder that are marked in the selected files list as ``ToImport`` (orange).
-#. **Options Menu**
+#. **Options Menu** – Provides access to additional Navigator features:
 
-   * NoSeedValue Scenario
-   * Tag Details
-   * Model Trade Links
-   * Sync Logs
-   * Delete Logs
+   * **NoSeedValue Scenario**
 
+     .. note::
+        .. raw:: html
 
-File Status
-^^^^^^^^^^^
+           <span style="color: red;"><strong>Coming soon.</strong></span> This section will be updated to describe the <strong>NoSeedValue Scenario</strong> in Veda Online.
 
-.. image:: ../images/nav_files_status_legend.png
-   :align: center
+   * **Tag Details**
 
-Provides feedback about the status of the various files and the integrated database managed by Veda, according to the color legend at the bottom of the form.
+     .. note::
+        .. raw:: html
 
-* **Not imported** – not yet read into the database
-* **Imported** – selected for importing with next SYNC
-* **Consistent** – templates that are in sync with the database
-* **Inconsistent** – file has been modified after the last SYNC operation
-* **ToRemove** – missing template imported previously now flagged for removal from the database
-* **FileMissing** – a previously imported template that no longer exists in the template folder
-* **Error** – if a file has thrown an error
+           <span style="color: red;"><strong>Coming soon.</strong></span> This section will be updated to describe <strong>Tag Details</strong> in Veda Online.
+
+   * **Model Trade Links**
+
+     .. note::
+        .. raw:: html
+
+           <span style="color: red;"><strong>Coming soon.</strong></span> This section will be updated to describe <strong>Model Trade Links</strong> in Veda Online.
+
+   * **Sync Logs**
+
+     .. note::
+        .. raw:: html
+
+           <span style="color: red;"><strong>Coming soon.</strong></span> This section will be updated to describe <strong>Sync Logs</strong> in Veda Online.
+
+   * **Delete Logs**
+
+     .. note::
+        .. raw:: html
+
+           <span style="color: red;"><strong>Coming soon.</strong></span> This section will be updated to describe <strong>Delete Logs</strong> in Veda Online.
+
+#. **Start from Scratch** – Deletes the previous model data from the database and pulls all files from the GitHub repository. You then need to synchronize the model again. Reports module data is not deleted.
+
+#. **Pull** – Pulls all files from the Git repository without changing your data in the VedaOnline database.
+
+#. **Commits** – Lets you review your GitHub commits directly in VedaOnline.
+
+#. **File Status** – Provides feedback about the status of the various files and the integrated database managed by Veda, according to the color legend at the bottom of the form.
+
+   * **Not imported** – not yet read into the database
+   * **Imported** – selected for importing with the next SYNC
+   * **Consistent** – template is in sync with the database
+   * **Inconsistent** – file has been modified after the last SYNC operation
+   * **ToRemove** – previously imported template now flagged for removal from the database
+   * **FileMissing** – a previously imported template that no longer exists in the template folder
+   * **Error** – the file has thrown an error
+
+#. **Email Checkbox** – If this checkbox is cleared, VedaOnline will not send an email after synchronization finishes.
+
+#. **Synchronize** – Processes all templates in the application folder that are marked in the selected files list as ``ToImport`` (orange).
+
+   * Synchronize imports all selected Excel workbooks into the Veda database. Processing can be observed live in the right-hand logging window or on the **Jobs Dashboard** page.
+   * An email is sent to the associated user upon completion. Whether the run succeeds or fails, the sync log details are included in the completion email.
+   * After synchronizing a model, you can return to the Navigator.
