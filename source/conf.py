@@ -136,3 +136,7 @@ html_static_path = ['_static']
 html_css_files = [
     'custom.css',
 ]
+
+html_js_files = [
+    'image-lightbox.js',
+]

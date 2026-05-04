@@ -13,6 +13,7 @@ On that page you use the **Modules** row to switch between the main areas of the
 The sections in this chapter follow that same structure, so you can jump from the app to the matching page:
 
 * **Main Menu** — Home, Modules list, search, and model information.
+* **About** — Model introduction, metadata, and Key Output / Presenter Views.
 * **Navigator** — Excel templates, sync, and file status.
 * **Browse** — Tabular view of input data.
 * **Items detail** — Topology and parameters for items.
@@ -27,6 +28,7 @@ In the sidebar, these pages are **nested under Model workspace** so they stay gr
    :maxdepth: 1
 
    Veda Menu
+   About module <About>
    Navigator
    Browse
    Items detail

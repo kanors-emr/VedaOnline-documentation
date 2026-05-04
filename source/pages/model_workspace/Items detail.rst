@@ -36,40 +36,61 @@ How to use it?
 
 Where to view the data
 ^^^^^^^^^^^^^^^^^^^^^^
+**Pivot View**
+    .. image:: ../images/items_view_pivot.png
+        :align: center
 
-.. note::
-    .. raw:: html
+    .. note::
+        .. raw:: html
 
-       <span style="color: red;"><strong>Coming soon.</strong></span>
-       Detailed documentation for <strong>Pivot view</strong>, <strong>Detailed view</strong>, <strong>Basic view</strong>,
-       <strong>Network Diagram</strong>, and <strong>New RES Diagram</strong> will be added here.
-       The images below are a visual reference for each mode.
+            <span style="color: red;"><strong>Coming soon.</strong></span>
+            Detailed documentation for <strong>Pivot view</strong> will be added here.
+            The image above is a visual reference.
 
-Pivot view
-""""""""""
-.. image:: ../images/items_view_pivot.png
-    :align: center
+**Detailed View**    
+    .. image:: ../images/items_view_detail_view.png
+        :align: center
+        :height: 200px
 
-Detailed view
-"""""""""""""
-.. image:: ../images/items_view_detail_view.png
-    :align: center
-    :height: 200px
+    .. note::
+        .. raw:: html
 
-Basic view
-""""""""""
-.. image:: ../images/items_view_input_output.png
-    :align: center
-    :height: 250px
+            <span style="color: red;"><strong>Coming soon.</strong></span>
+            Detailed documentation for <strong>Detailed view</strong> will be added here.
+            The image above is a visual reference.
 
-Network Diagram
-"""""""""""""""
-.. image:: ../images/items_view_network_diag.png
-    :align: center
-    :height: 300px
+**Basic View**    
+    .. image:: ../images/items_view_input_output.png
+        :align: center
+        :height: 250px
 
-New RES Diagram
-"""""""""""""""
-.. image:: ../images/items_view_new_res_diag.png
-    :align: center
-    :height: 300px
+    .. note::
+        .. raw:: html
+
+            <span style="color: red;"><strong>Coming soon.</strong></span>
+            Detailed documentation for <strong>Basic view</strong> will be added here.
+            The image above is a visual reference.
+
+**Network Diagram**    
+    .. image:: ../images/items_view_network_diag.png
+        :align: center
+        :height: 300px
+
+    .. note::
+        .. raw:: html
+
+            <span style="color: red;"><strong>Coming soon.</strong></span>
+            Detailed documentation for <strong>Network Diagram</strong> will be added here.
+            The image above is a visual reference.
+
+**New RES Diagram**    
+    .. image:: ../images/items_view_new_res_diag.png
+        :align: center
+        :height: 300px
+
+    .. note::
+        .. raw:: html
+
+            <span style="color: red;"><strong>Coming soon.</strong></span>
+            Detailed documentation for <strong>New RES Diagram</strong> will be added here.
+            The image above is a visual reference.

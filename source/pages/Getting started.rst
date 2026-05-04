@@ -9,9 +9,8 @@ These pages introduce Veda Online, help you register and create models, and comp
 
    introduction
    User types and pricing
-   About
    OSeMOSYS
-   VO_free_academic
+   Free academic access <VO_free_academic>
    Comparing V2 and VO
    Registration
    Create Model Guide

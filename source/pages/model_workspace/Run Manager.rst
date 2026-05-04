@@ -2,7 +2,7 @@
 Run Manager
 ###########
 
-Learn RunManager with Videos - https://www.youtube.com/playlist?list=PLRCe_SRAk7hOvHdyCuLQ15-6JldaH8Ryu
+
 
 Introduction
 ------------
@@ -153,7 +153,7 @@ Review and manage saved case definitions, then select one or more cases to run.
 
 * **Case History**
 
-  .. image:: ../images/Case_history.gif
+  .. image:: ../images/gifs/Case_history.gif
       :align: center
       :width: 600px
 
@@ -171,16 +171,6 @@ Review and manage saved case definitions, then select one or more cases to run.
 
   * Select one (or more) of the cases in the Managed Save Cases section and click **Solve** button.
   * Solve status of model case can be tracked in **JobsDashboard**.
-
-
-
-7 - Resource Usage Summary
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-* This option allows you to view the resource usage summary for the selected case.
-
-.. image:: ../images/resource_usage_summary.png
-  :align: center
-  :width: 600px
 
 
 

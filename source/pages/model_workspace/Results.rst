@@ -29,9 +29,9 @@ The **Operations** menu contains actions related to result processing and case m
 
 Process Results
 """""""""""""""
-Used to process the result definitions for all cases in the current model.
+**Process Results** reads the **VD files** and processes all cases for the current model.
 
-.. image:: ../images/results_process.gif
+.. image:: ../images/gifs/results_process.gif
    :align: center
    :width: 600
 
@@ -58,7 +58,7 @@ The **Reset** option clears the current result selections and removes the applie
 * When a row in the Results grid is **highlighted in yellow**, it means that a global filter is applied to that row.
 * Press the **Ctrl key** and click on the row to apply the filter to the row.
 
-.. image:: ../images/global_filter.gif
+.. image:: ../images/gifs/global_filter.gif
    :align: center
    :width: 600
 

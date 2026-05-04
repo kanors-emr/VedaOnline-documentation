@@ -88,7 +88,7 @@ In such cases, the user can create a Presenter View and share only the required 
 
 This helps users share important analysis safely and in a more focused way.
 
-.. image:: ../images/Reports/reports_presenter_view.gif
+.. image:: ../images/gifs/reports_presenter_view.gif
    :align: center
    :width: 600
 

@@ -1,83 +1,130 @@
 IMAGE USAGE ANALYSIS
 ====================
 
-REFERENCED IMAGES (33 total):
+Scope: source/pages/images/ (PNGs and GIFs).
+References checked in: source/**/*.rst and source/conf.py.
+
+REFERENCED IMAGES (49 total):
 -----------------------------
-Main folder (20):
-1. email_userprofile.png
-2. email_navigator.png
-3. email_runmanager.png
-4. navigator.png
-5. navigator_menu.png
-6. nav_files_status_legend.png
-7. TIMES_process.png
-8. new_items_detail.png
-9. items_view_pivot.png
-10. items_view_detail_view.png
-11. items_view_input_output.png
-12. items_view_network_diag.png
-13. run_manager_1.png
-14. case_definition.png
-15. cases_grid.png
-16. Browse.png
-17. browse_set.png
-18. veda_folder_structure.png
-19. data_flow_and_files.png
-20. results_functionality.png
+Main folder, PNG (28):
+1.  about_modules.png                  — pages/model_workspace/About.rst
+2.  Attribute_master.png               — pages/model_workspace/Attribute Master.rst
+3.  Browse.png                         — pages/model_workspace/Browse.rst
+4.  browse_set.png                     — pages/model_workspace/Browse.rst
+5.  case_definition.png                — pages/model_workspace/Run Manager.rst
+6.  cases_grid.png                     — pages/model_workspace/Run Manager.rst
+7.  data_flow_and_files.png            — pages/introduction.rst
+8.  email_navigator.png                — pages/Email notifications.rst
+9.  email_runmanager.png               — pages/Email notifications.rst
+10. email_userprofile.png              — pages/Email notifications.rst
+11. items_view_detail_view.png         — pages/model_workspace/Items detail.rst
+12. items_view_input_output.png        — pages/model_workspace/Items detail.rst
+13. items_view_network_diag.png        — pages/model_workspace/Items detail.rst
+14. items_view_new_res_diag.png        — pages/model_workspace/Items detail.rst
+15. items_view_pivot.png               — pages/model_workspace/Items detail.rst
+16. nav_files_status_legend.png        — pages/model_workspace/Navigator.rst
+17. navigator.png                      — pages/model_workspace/Navigator.rst
+18. navigator_menu.png                 — pages/model_workspace/Navigator.rst
+19. new_items_detail.png               — pages/model_workspace/Items detail.rst
+20. pivot_grid.png                     — pages/Pivot grid.rst
+21. results_functionality.png          — pages/model_workspace/Results.rst
+22. results_module.png                 — pages/model_workspace/Results.rst
+23. results_saved_views.png            — pages/shared/_views_common.rst
+24. run_manager_1.png                  — pages/model_workspace/Run Manager.rst
+25. run_manager_settings_panel.png     — pages/model_workspace/Run Manager.rst
+26. TIMES_process.png                  — pages/model_workspace/Items detail.rst
+27. veda_folder_structure.png          — pages/introduction.rst
+28. vo_logo_bg_transparent.png         — source/conf.py (html_logo)
 
-Reports subfolder (13):
-1. Reports/varbls_on_com_sets.png
-2. Reports/agg_on_varbls-process.png
-3. Reports/agg_on_varbls-region.png
-4. Reports/coarser_varbls.png
-5. Reports/agg_on_comm_grps.png
-6. Reports/agg_on_process.png
-7. Reports/Veda_reports_viewer.png
-8. Reports/csv_output_reports.png
-9. Reports/main_energy_forms.png
-10. Reports/lma_road_transport.png
-11. Reports/lma_power_gen.png
-12. Reports/power_gen_alt_view.png
-13. Reports/power_gen_alt_view-2.png
+Reports/ subfolder, PNG (15):
+1.  Reports/agg_on_comm_grps.png       — pages/model_workspace/Reports.rst
+2.  Reports/agg_on_process.png         — pages/model_workspace/Reports.rst
+3.  Reports/agg_on_varbls-process.png  — pages/model_workspace/Reports.rst
+4.  Reports/agg_on_varbls-region.png   — pages/model_workspace/Reports.rst
+5.  Reports/coarser_varbls.png         — pages/model_workspace/Reports.rst
+6.  Reports/csv_output_reports.png     — pages/model_workspace/Reports.rst
+7.  Reports/lma_power_gen.png          — pages/model_workspace/Reports.rst
+8.  Reports/lma_road_transport.png     — pages/model_workspace/Reports.rst
+9.  Reports/main_energy_forms.png      — pages/model_workspace/Reports.rst
+10. Reports/power_gen_alt_view.png     — pages/model_workspace/Reports.rst
+11. Reports/power_gen_alt_view-2.png   — pages/model_workspace/Reports.rst
+12. Reports/reports_modules.png        — pages/model_workspace/Reports.rst
+13. Reports/reports_process_study.png  — pages/model_workspace/Reports.rst
+14. Reports/varbls_on_com_sets.png     — pages/model_workspace/Reports.rst
+15. Reports/Veda_reports_viewer.png    — pages/model_workspace/Reports.rst
 
-UNUSED IMAGES (32 total):
--------------------------
-Main folder (32):
-1. veda_versions.png
-2. veda_tags.png
-3. uninstall.png
-4. times_attributes.png
-5. tag_details.png
-6. sync_log_all.png
-7. stop_server.png
-8. solve_cmd.png
-9. save_backup_form.png
-10. restore_form.png
-11. restore_case_run_manager.png
-12. old_veda_ref_case.png
-13. nsv_candidates.png
-14. new_times_attributes.png
-15. new_items_list.png
+gifs/ subfolder, GIF (6):
+1. gifs/Case_history.gif               — pages/model_workspace/Run Manager.rst
+2. gifs/global_filter.gif              — pages/model_workspace/Results.rst
+3. gifs/presenter_views.gif            — pages/model_workspace/About.rst
+4. gifs/reports_presenter_view.gif     — pages/model_workspace/Reports.rst
+5. gifs/resource_usage_summary.gif     — pages/Resource Usage Summary.rst
+6. gifs/results_process.gif            — pages/model_workspace/Results.rst
+
+UNUSED IMAGES (0 total):
+------------------------
+The 35 previously unused PNGs in the main folder have been removed
+from source/pages/images/. They are still recoverable via git history
+if any are needed later.
+
+Removed files (for reference):
+1.  add_dir_button.png
+2.  Advancedfunction_Export_Cases.png
+3.  backup_state_menu.png
+4.  dd_files.png
+5.  import_views.png
+6.  information_tag_details.png
+7.  items_detail.png
+8.  items_list.png
+9.  license_form.png
+10. lickey_information.png
+11. maintenance_status_2.png
+12. manage_duplicates.png
+13. module_buttons.png
+14. new_items_list.png
+15. new_models_list-2.png
 16. new_sync_window.png
-17. new_models_list-2.png
-18. module_buttons.png
-19. manage_duplicates.png
-20. maintenance_status_2.png
-21. license_form.png
-22. lickey_information.png
-23. items_list.png
-24. items_detail.png
-25. information_tag_details.png
-26. dd_files.png
-27. Veda_Premature_Error.png
-28. Start_page_04Aug21.png
-29. UD_sets_usage.png
-30. backup_state_menu.png
-31. add_dir_button.png
-32. Advancedfunction_Export_Cases.png
+17. new_times_attributes.png
+18. nsv_candidates.png
+19. old_veda_ref_case.png
+20. resource_usage_summary.png         (the GIF version under gifs/ is still used)
+21. restore_case_run_manager.png
+22. restore_form.png
+23. results_saved_views_groups.png
+24. save_backup_form.png
+25. solve_cmd.png
+26. Start_page_04Aug21.png
+27. stop_server.png
+28. sync_log_all.png
+29. tag_details.png
+30. times_attributes.png
+31. UD_sets_usage.png
+32. uninstall.png
+33. Veda_Premature_Error.png
+34. veda_tags.png
+35. veda_versions.png
 
-SUMMARY:
---------
-Total images: 65
-Referenced: 33 (50.8%)
-Unused: 32 (49.2%)
+Reports/ subfolder, PNG: all referenced.
+gifs/ subfolder, GIF: all referenced.
+
+NOTES:
+------
+- Only files under source/pages/images/ were considered. Sphinx build artefacts
+  in build/html/_images/ are derived; do not delete them by hand.
+- A few unused PNGs share a base name with a used GIF
+  (e.g. resource_usage_summary.png vs gifs/resource_usage_summary.gif). The PNG
+  is unused; only the GIF is referenced.
+- Some unused names look like older revisions of currently used assets
+  (e.g. items_list.png / items_detail.png vs new_items_*; times_attributes.png
+  vs new_times_attributes.png; new_times_attributes.png itself is also unused).
+  Confirm with the team before deleting.
+
+SUMMARY (post-cleanup):
+-----------------------
+Total image files: 49
+  - Main folder PNG: 28
+  - Reports/ PNG:    15
+  - gifs/ GIF:        6
+
+Referenced: 49 (100%)
+Unused:      0

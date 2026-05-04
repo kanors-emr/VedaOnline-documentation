@@ -99,3 +99,94 @@ body[data-theme="dark"] .sidebar-scroll .sidebar-tree li.toctree-l3.current {
 body[data-theme="dark"] #furo-main-content blockquote {
     border-left-color: rgba(200, 220, 255, 0.35);
 }
+
+/* ----- Image lightbox: explicit close controls ----- */
+.vo-lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: rgb(71, 71, 71);    
+    padding: 2rem;
+    overscroll-behavior: contain;
+}
+
+/* Lock background scroll while lightbox is open (avoids wheel / trackpad bleed-through) */
+html.vo-lightbox-scroll-lock {
+    overflow: hidden !important;
+    height: 100%;
+    overscroll-behavior: none;
+}
+
+html.vo-lightbox-scroll-lock body {
+    overscroll-behavior: none;
+    touch-action: none;
+}
+
+.vo-lightbox.is-open {
+    display: flex;
+}
+
+.vo-lightbox__img {
+    max-width: 95vw;
+    max-height: 90vh;
+    object-fit: contain;
+    transform-origin: center center;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+    touch-action: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    z-index: 1;
+}
+
+.vo-lightbox__close {
+    position: absolute;
+    top: 0.75rem;
+    right: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    border-radius: 999px;
+    padding: 0.15rem 0.65rem;
+    background: rgba(0, 0, 0, 0.25);
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 1.2;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.vo-lightbox__controls {
+    position: absolute;
+    top: 0.9rem;
+    left: 1rem;
+    display: flex;
+    gap: 0.5rem;
+    z-index: 3;
+}
+
+.vo-lightbox__control {
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    border-radius: 8px;
+    min-width: 3rem;
+    padding: 0.2rem 0.55rem;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.vo-lightbox__control:hover {
+    background: rgba(255, 255, 255, 0.16);
+}
+
+.vo-lightbox__hint {
+    position: absolute;
+    left: 1rem;
+    bottom: 0.75rem;
+    color: rgba(255, 255, 255, 0.88);
+    font-size: 0.85rem;
+    z-index: 3;
+}
+

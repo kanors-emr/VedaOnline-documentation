@@ -1,11 +1,11 @@
-################################
-Veda online is free for students
-################################
+#####################################
+Learn/Use TIMES on Veda Online (free)
+#####################################
 
 ETSAP and KanORS have created a free online platform where students can learn Veda-TIMES modeling.
 
-Getting started
-===============
+Access and registration
+=======================
 
 * A permanent staff member of a degree granting institution needs to `register on Veda online <https://vedaonline.cloud/Signup.aspx>`_ (**with the institutional email address**) and `request ETSAP for student access <mailto:ggian@etsap.org?subject=Requesting%20student%20access%20to%20the%20Veda-TIMES%20platform&cc=info@kanors.com>`_.
 
