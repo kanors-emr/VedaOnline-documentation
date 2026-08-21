@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  <meta name="robots" content="index, follow" />
+  {% set _desc = (page.meta.description if page and page.meta and page.meta.description else config.site_description) %}
+  {% set _title = (
+      page.meta.title if page and page.meta and page.meta.title
+      else (page.title | striptags if page and page.title and not page.is_homepage else "Veda Online Documentation")
+  ) %}
+  {% if _desc %}
+  <meta property="og:type" content="{% if page and page.is_homepage %}website{% else %}article{% endif %}" />
+  <meta property="og:title" content="{% if page and page.is_homepage %}Veda Online Documentation{% else %}{{ _title }} - Veda Online Documentation{% endif %}" />
+  <meta property="og:description" content="{{ _desc }}" />
+  <meta property="og:url" content="{{ page.canonical_url }}" />
+  <meta property="og:site_name" content="Veda Online Documentation" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="{% if page and page.is_homepage %}Veda Online Documentation{% else %}{{ _title }} - Veda Online Documentation{% endif %}" />
+  <meta name="twitter:description" content="{{ _desc }}" />
+  {% endif %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Veda Online Documentation",
+    "url": {{ config.site_url | tojson }},
+    "description": {{ config.site_description | tojson }}
+  }
+  </script>
+{% endblock %}
+
+{% block htmltitle %}
+  {%- if page and page.meta and page.meta.title -%}
+    <title>{{ page.meta.title }} - Veda Online Documentation</title>
+  {%- elif page and page.title and not page.is_homepage -%}
+    <title>{{ page.title | striptags }} - Veda Online Documentation</title>
+  {%- else -%}
+    <title>Veda Online Documentation</title>
+  {%- endif %}
+{% endblock %}
+
+{% block content %}
+  {% set home_src = page.file.src_path %}
+  {% set is_docs_home = home_src == "index.md" or (
+    home_src.startswith("index.") and home_src.endswith(".md")
+  ) %}
+  {% if page.is_homepage or is_docs_home %}
+    {% include "partials/hero-banner.html" %}
+  {% endif %}
+  {% include "partials/content.html" %}
+{% endblock %}

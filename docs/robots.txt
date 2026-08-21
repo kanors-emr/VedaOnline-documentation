@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kanors-emr.github.io/VedaOnline-documentation/sitemap.xml
