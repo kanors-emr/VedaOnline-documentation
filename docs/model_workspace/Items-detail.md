@@ -1,7 +1,3 @@
----
-description: Items View in Veda Online — topology and parameters for processes and commodities, and open source Excel from pivot value cells.
----
-
 # Items detail
 
 ## Introduction
@@ -30,22 +26,9 @@ This shows the basic information, topology, and parameters for all items - proce
 **Pivot View**  
 <img src="../images/items_view_pivot.png" class="align-center" alt="image" />
 
-Pivot View shows the assembled parameters for the selected item in a cube. You can rearrange rows and columns the same way as in [Browse](Browse.md).
+!!! note
 
-When **Excel Viewer** is enabled for your account, you can open the source workbook from a pivot **value** cell (the number):
-
-- Hover the cell first. The tooltip shows workbook, sheet, and cell. If the value also has a **seed** source, the tooltip lists that workbook too.
-- Openable value cells use a pointer cursor. Click once to select the cell (blue outline).
-- **Double-click** the value cell, or press **Enter** on the selected cell, to open **Excel Viewer** at that sheet and cell.
-- If the cell has a seed source, both workbooks open (primary first, then seed).
-
-Excel Viewer does **not** open from:
-
-- Row or column labels (attribute names, years, and other dimension text)
-- Aggregated cells (more than one underlying record) — the tooltip already says the location is unavailable
-- Cells with no file path or cell address
-
-GitHub save rules are the same as Navigator: if GitHub is ahead, or no token is saved on a linked model, the workbook opens **view only**. See [Excel Viewer](Navigator.md#excel-viewer) and [Push Excel files to GitHub](Navigator.md#push-excel-files-to-github).
+    <span class="vo-coming-soon">Coming soon.</span> Detailed documentation for <strong>Pivot view</strong> will be added here. The image above is a visual reference.
 
 **Detailed View**  
 <img src="../images/items_view_detail_view.png" class="align-center" height="200" alt="image" />
