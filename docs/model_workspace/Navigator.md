@@ -114,6 +114,8 @@ GitHub-linked models use the token saved on [User Profile](../User-Profile.md).
 
 When Excel Viewer is enabled for your account, open templates in the browser instead of downloading them.
 
+<img src="../images/excel_viewer.png" class="align-center" alt="Excel Viewer" />
+
 **How to open from Navigator**
 
 - Double-click a file row in any scenario grid.

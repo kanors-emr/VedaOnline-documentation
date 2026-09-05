@@ -34,6 +34,8 @@ Pivot View shows the assembled parameters for the selected item in a cube. You c
 
 When **Excel Viewer** is enabled for your account, you can open the source workbook from a pivot **value** cell (the number):
 
+<img src="../images/excel_viewer.png" class="align-center" alt="Excel Viewer" />
+
 - Hover the cell first. The tooltip shows workbook, sheet, and cell. If the value also has a **seed** source, the tooltip lists that workbook too.
 - Openable value cells use a pointer cursor. Click once to select the cell (blue outline).
 - **Double-click** the value cell, or press **Enter** on the selected cell, to open **Excel Viewer** at that sheet and cell.
