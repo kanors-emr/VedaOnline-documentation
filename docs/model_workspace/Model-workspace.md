@@ -12,7 +12,13 @@ On that page you use the **Modules** row to switch between the main areas of the
 
 **Reading this manual**
 
-The sections in this chapter follow that same structure, so you can jump from the app to the matching page:
+If you already know the task:
+
+- Open or edit Excel in the browser → [Navigator — Excel Viewer](Navigator.md#excel-viewer)
+- Send Excel to GitHub → [Navigator — Push](Navigator.md#push-excel-files-to-github)
+- Open the Excel behind a number in Browse or Items View → [Browse](Browse.md#open-source-excel-from-a-pivot-cell) / [Items detail](Items-detail.md#where-to-view-the-data)
+
+The sections in this chapter follow the app, so you can jump from a module to the matching page:
 
 - **Main Menu** — Home, Modules list, search, and model information.
     - **About Module** — Model introduction, metadata, and Key Output / Presenter Views.

@@ -36,21 +36,16 @@ The Browser thereby enables the user to view subsets of the assembled data in a 
 
 ### Open source Excel from a pivot cell
 
-When **Excel Viewer** is enabled for your account, you can jump from a Browse pivot **value** (the number) to the template that supplied it.
+Use **Excel Viewer** to open the workbook that supplied a number in the Browse pivot.
 
-<img src="../images/excel_viewer.png" class="align-center" alt="Excel Viewer" />
+Double-click a **value** (the number), or select it and press **Enter**. Hover the cell first to see workbook, sheet, and cell in the tooltip.
 
-- Hover the cell first. The tooltip shows workbook, sheet, and cell. If the value also has a **seed** source, the tooltip lists that workbook too.
-- Openable value cells use a pointer cursor. Click once to select the cell (blue outline).
-- **Double-click** the value cell, or press **Enter** on the selected cell, to open **Excel Viewer** at that sheet and cell.
-- If the cell has a seed source, both workbooks open (primary first, then seed).
+<figure class="align-center">
+<img src="../images/excel_viewer.png" alt="Excel Viewer" width="700" />
+</figure>
 
-Excel Viewer does **not** open from:
+Do **not** double-click row or column labels such as years or attribute names — those do not open a file. Excel Viewer also does not open when the number is aggregated (several records) or has no file location.
 
-- Row or column labels (attribute names, years, and other dimension text)
-- Aggregated cells (more than one underlying record) — the tooltip already says the location is unavailable
-- Cells with no file path or cell address
+If the tooltip lists a **seed** workbook, both files open (the main file first).
 
-GitHub save rules are the same as Navigator: if GitHub is ahead, or no token is saved on a linked model, the workbook opens **view only**. See [Excel Viewer](Navigator.md#excel-viewer) and [Push Excel files to GitHub](Navigator.md#push-excel-files-to-github).
-
-This open-from-cell action is not available in Results or Reports.
+This action is not available in Results or Reports. For GitHub and Save behaviour, see [Excel Viewer](Navigator.md#excel-viewer).

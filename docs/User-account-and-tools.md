@@ -7,7 +7,7 @@ description: Veda Online account tools — email notifications, profile, model s
 Email preferences, profile options, jobs, imports, and utilities available from the user menu in Veda Online.
 
 - [Email notifications](Email-notifications.md)
-- [User Profile](User-Profile.md)
+- [User Profile](User-Profile.md) — GitHub username and token for Pull, Push, and Excel Viewer save
 - [Model Settings](Models-Settings.md)
 - [Jobs Dashboard](Jobs-Dashboard.md)
 - [Import Vd Files](Import-Vd-Files.md)
