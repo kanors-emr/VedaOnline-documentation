@@ -8,19 +8,19 @@ Open **User Profile** from the user menu (top right) while you are signed in.
 
 ## GitHub credentials
 
-Save your GitHub username and **Personal Access Token (PAT)** so Veda Online can Pull private repositories, Push Excel files, and save in Excel Viewer.
+Veda Online uses a GitHub **token** (Personal Access Token) like a password, so it can Pull private repositories, Push Excel files, and **Save** in Excel Viewer.
+
+How to create a token: [Create and store PAT](https://www.youtube.com/watch?v=28epMT27MJ4) (also covered in the [Create Model Guide](Create-Model-Guide.md)).
 
 1. Open User Profile.
-2. Under **GitHub Credentials**, enter your GitHub username and PAT.
+2. Under **GitHub Credentials**, enter your GitHub username and token.
 3. Click **Save**.
 
 To replace a token, save the new values. To remove a saved token, click **Remove**.
 
-- **Push** always needs a token that can **write** that repository.
+- **Push** needs a token that can update that repository. If the token is missing or cannot update the repo, Push shows an error and does not open the file list.
 - **Pull** and **Start from Scratch** need a token for **private** repositories. Public repositories do not.
-- **Excel Viewer**: you can open a file without a token. Save needs a saved token and a branch that is up to date with GitHub. See [Excel Viewer](model_workspace/Navigator.md#excel-viewer).
-
-How to create a PAT: [Create Model Guide](Create-Model-Guide.md) and [Create and store PAT](https://www.youtube.com/watch?v=28epMT27MJ4).
+- **Excel Viewer**: you can open a file without a token. Save needs a saved token, and GitHub must not have newer files than this model folder. See [Excel Viewer](model_workspace/Navigator.md#excel-viewer).
 
 !!! note
 
