@@ -1,0 +1,125 @@
+<div class="vo-hero-banner">
+  <svg class="vo-hero-banner__charts" viewBox="0 0 1000 168" preserveAspectRatio="xMidYMax meet" aria-hidden="true" focusable="false">
+    <defs>
+      <radialGradient id="vo-hero-fade-gradient" cx="50%" cy="50%" r="50%">
+        <stop offset="0" stop-color="#5a5a5a" />
+        <stop offset="0.4" stop-color="#666" />
+        <stop offset="0.75" stop-color="#fff" />
+      </radialGradient>
+      <mask id="vo-hero-fade" maskUnits="userSpaceOnUse" x="0" y="0" width="1000" height="168">
+        <rect width="1000" height="168" fill="url(#vo-hero-fade-gradient)" />
+      </mask>
+      <radialGradient id="vo-hero-spot-gradient">
+        <stop offset="0" stop-color="#fff" />
+        <stop offset="1" stop-color="#000" />
+      </radialGradient>
+      <mask id="vo-hero-spot" maskUnits="userSpaceOnUse" x="0" y="0" width="1000" height="168">
+        <circle class="vo-hero-banner__spot-light" cx="-500" cy="84" r="130" fill="url(#vo-hero-spot-gradient)" />
+      </mask>
+      <filter id="vo-hero-glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="2.5" result="blur" />
+        <feMerge>
+          <feMergeNode in="blur" />
+          <feMergeNode in="SourceGraphic" />
+        </feMerge>
+      </filter>
+    </defs>
+
+    <g mask="url(#vo-hero-fade)">
+      <g class="vo-hero-banner__base">
+        <g id="vo-hero-charts" fill="#fff">
+          <rect x="55" y="150" width="910" height="1" fill-opacity="0.35" />
+
+          <g class="vo-hero-banner__bars">
+            <rect style="--i:0" x="62" y="128" width="16" height="22" fill-opacity="0.45" />
+            <rect style="--i:0" x="62" y="114" width="16" height="14" fill-opacity="0.3" />
+            <rect style="--i:0" x="62" y="106" width="16" height="8" fill-opacity="0.18" />
+            <rect style="--i:1" x="85" y="126" width="16" height="24" fill-opacity="0.45" />
+            <rect style="--i:1" x="85" y="109" width="16" height="17" fill-opacity="0.3" />
+            <rect style="--i:1" x="85" y="98" width="16" height="11" fill-opacity="0.18" />
+            <rect style="--i:2" x="108" y="124" width="16" height="26" fill-opacity="0.45" />
+            <rect style="--i:2" x="108" y="103" width="16" height="21" fill-opacity="0.3" />
+            <rect style="--i:2" x="108" y="89" width="16" height="14" fill-opacity="0.18" />
+            <rect style="--i:3" x="131" y="124" width="16" height="26" fill-opacity="0.45" />
+            <rect style="--i:3" x="131" y="97" width="16" height="27" fill-opacity="0.3" />
+            <rect style="--i:3" x="131" y="79" width="16" height="18" fill-opacity="0.18" />
+            <rect style="--i:4" x="154" y="124" width="16" height="26" fill-opacity="0.45" />
+            <rect style="--i:4" x="154" y="92" width="16" height="32" fill-opacity="0.3" />
+            <rect style="--i:4" x="154" y="69" width="16" height="23" fill-opacity="0.18" />
+            <rect style="--i:5" x="177" y="124" width="16" height="26" fill-opacity="0.45" />
+            <rect style="--i:5" x="177" y="88" width="16" height="36" fill-opacity="0.3" />
+            <rect style="--i:5" x="177" y="60" width="16" height="28" fill-opacity="0.18" />
+          </g>
+          <g filter="url(#vo-hero-glow)">
+            <polyline class="vo-hero-banner__draw" pathLength="1" points="70,92 93,82 116,72 139,64 162,52 185,40" fill="none" stroke="#fff" stroke-opacity="0.7" stroke-width="1.5" stroke-linejoin="round" />
+            <g fill-opacity="0.8">
+              <circle class="vo-hero-banner__pop" style="--i:0" cx="70" cy="92" r="2.6" />
+              <circle class="vo-hero-banner__pop" style="--i:1" cx="93" cy="82" r="2.6" />
+              <circle class="vo-hero-banner__pop" style="--i:2" cx="116" cy="72" r="2.6" />
+              <circle class="vo-hero-banner__pop" style="--i:3" cx="139" cy="64" r="2.6" />
+              <circle class="vo-hero-banner__pop" style="--i:4" cx="162" cy="52" r="2.6" />
+              <circle class="vo-hero-banner__pop" style="--i:5" cx="185" cy="40" r="2.6" />
+            </g>
+          </g>
+
+          <g transform="translate(250 30) scale(1.303 1.364) translate(-135 -16)">
+            <g class="vo-hero-banner__flow">
+              <path d="M135,16 C217,16 217,16 300,16 L300,32 C217,32 217,32 135,32 Z" fill-opacity="0.24" />
+              <path d="M135,32 C217,32 217,45 300,45 L300,57 C217,57 217,44 135,44 Z" fill-opacity="0.24" />
+              <path d="M135,44 C217,44 217,91 300,91 L300,95 C217,95 217,48 135,48 Z" fill-opacity="0.24" />
+              <path d="M135,56 C217,56 217,32 300,32 L300,40 C217,40 217,64 135,64 Z" fill-opacity="0.18" />
+              <path d="M135,64 C217,64 217,57 300,57 L300,61 C217,61 217,68 135,68 Z" fill-opacity="0.18" />
+              <path d="M135,68 C217,68 217,70 300,70 L300,82 C217,82 217,80 135,80 Z" fill-opacity="0.18" />
+              <path d="M135,88 C217,88 217,61 300,61 L300,65 C217,65 217,92 135,92 Z" fill-opacity="0.13" />
+              <path d="M135,92 C217,92 217,82 300,82 L300,86 C217,86 217,96 135,96 Z" fill-opacity="0.13" />
+              <path d="M135,96 C217,96 217,95 300,95 L300,103 C217,103 217,104 135,104 Z" fill-opacity="0.13" />
+              <g fill-opacity="0.7">
+                <rect x="130" y="16" width="5" height="32" />
+                <rect x="130" y="56" width="5" height="24" />
+                <rect x="130" y="88" width="5" height="16" />
+                <rect x="300" y="16" width="5" height="24" />
+                <rect x="300" y="45" width="5" height="20" />
+                <rect x="300" y="70" width="5" height="16" />
+                <rect x="300" y="91" width="5" height="12" />
+              </g>
+            </g>
+          </g>
+
+          <g transform="translate(520 150) scale(2.286 1.5) translate(-100 -105)">
+            <g class="vo-hero-banner__rise">
+              <polygon points="100,85 121,80 142,82 163,72 184,68 205,60 205,105 100,105" fill-opacity="0.4" />
+              <polygon points="100,70 121,62 142,66 163,50 184,44 205,34 205,60 184,68 163,72 142,82 121,80 100,85" fill-opacity="0.24" />
+              <polyline points="100,70 121,62 142,66 163,50 184,44 205,34" fill="none" stroke="#fff" stroke-opacity="0.7" stroke-width="1.5" stroke-linejoin="round" vector-effect="non-scaling-stroke" filter="url(#vo-hero-glow)" />
+            </g>
+          </g>
+
+          <g class="vo-hero-banner__spin" filter="url(#vo-hero-glow)">
+            <g fill="none" stroke="#fff" stroke-width="16" transform="rotate(-90 815 98)">
+              <circle cx="815" cy="98" r="42" stroke-opacity="0.6" stroke-dasharray="105.6 158.3" />
+              <circle cx="815" cy="98" r="42" stroke-opacity="0.42" stroke-dasharray="66 197.9" stroke-dashoffset="-105.6" />
+              <circle cx="815" cy="98" r="42" stroke-opacity="0.3" stroke-dasharray="52.8 211.1" stroke-dashoffset="-171.6" />
+              <circle cx="815" cy="98" r="42" stroke-opacity="0.2" stroke-dasharray="39.6 224.3" stroke-dashoffset="-224.4" />
+            </g>
+          </g>
+
+          <g>
+            <rect x="882" y="40" width="1" height="110" fill-opacity="0.35" />
+            <g filter="url(#vo-hero-glow)">
+              <circle class="vo-hero-banner__pop" style="--i:6" cx="894" cy="135" r="4" fill-opacity="0.5" />
+              <circle class="vo-hero-banner__pop" style="--i:7" cx="904" cy="118" r="6" fill-opacity="0.36" />
+              <circle class="vo-hero-banner__pop" style="--i:8" cx="914" cy="128" r="3" fill-opacity="0.55" />
+              <circle class="vo-hero-banner__pop" style="--i:9" cx="922" cy="96" r="8" fill-opacity="0.28" />
+              <circle class="vo-hero-banner__pop" style="--i:10" cx="934" cy="108" r="4" fill-opacity="0.5" />
+              <circle class="vo-hero-banner__pop" style="--i:11" cx="942" cy="72" r="6" fill-opacity="0.36" />
+              <circle class="vo-hero-banner__pop" style="--i:12" cx="954" cy="84" r="3" fill-opacity="0.55" />
+              <circle class="vo-hero-banner__pop" style="--i:13" cx="950" cy="52" r="5" fill-opacity="0.42" />
+            </g>
+          </g>
+        </g>
+      </g>
+      <use class="vo-hero-banner__spot" href="#vo-hero-charts" mask="url(#vo-hero-spot)" />
+    </g>
+  </svg>
+
+  <h1 class="vo-hero-banner__title">Veda Online Documentation</h1>
+</div>

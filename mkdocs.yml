@@ -57,6 +57,7 @@ extra_css:
 extra_javascript:
   - _static/image-lightbox.js
   - _static/smooth-anchor.js
+  - javascripts/hero-spotlight.js
 
 extra:
   social:

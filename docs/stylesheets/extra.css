@@ -158,6 +158,184 @@
   clear: both;
 }
 
+/* Homepage hero banner (static showcase of supported chart types) */
+.vo-hero-banner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 168px;
+  margin: 0 0 1.5rem;
+  padding: 1.5rem 2rem;
+  box-sizing: border-box;
+  border-radius: 16px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #2a3e68 0%, #fc8462 55%, #f8b26a 100%);
+}
+
+.md-typeset .vo-hero-banner__charts {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+}
+
+.vo-hero-banner__base {
+  opacity: 0.25;
+}
+
+.vo-hero-banner__spot {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.vo-hero-banner:hover .vo-hero-banner__spot {
+  opacity: 0.35;
+}
+
+/* Shine across the top edge, plus one light sweep after the charts draw in */
+.vo-hero-banner::before,
+.vo-hero-banner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.vo-hero-banner::before {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 45%);
+}
+
+.vo-hero-banner::after {
+  background: linear-gradient(105deg, transparent 35%, rgba(255, 255, 255, 0.16) 50%, transparent 65%);
+  transform: translateX(-100%);
+  animation: vo-hero-sweep 1.4s ease-in-out 1.6s both;
+}
+
+/* Draw-in on load */
+.vo-hero-banner__bars rect,
+.vo-hero-banner__rise,
+.vo-hero-banner__flow,
+.vo-hero-banner__spin,
+.vo-hero-banner__pop {
+  transform-box: fill-box;
+}
+
+.vo-hero-banner__bars rect {
+  transform-origin: 50% 100%;
+  animation: vo-hero-rise 0.6s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  animation-delay: calc(0.1s + var(--i) * 0.07s);
+}
+
+.vo-hero-banner__draw {
+  stroke-dasharray: 1;
+  animation: vo-hero-draw 0.8s ease-out 0.6s both;
+}
+
+.vo-hero-banner__pop {
+  transform-origin: 50% 50%;
+  animation: vo-hero-pop 0.4s cubic-bezier(0.3, 1.6, 0.5, 1) both;
+  animation-delay: calc(0.9s + var(--i) * 0.06s);
+}
+
+.vo-hero-banner__flow {
+  transform-origin: 0% 50%;
+  animation: vo-hero-flow 0.9s cubic-bezier(0.3, 0.7, 0.2, 1) 0.35s both;
+}
+
+.vo-hero-banner__rise {
+  transform-origin: 50% 100%;
+  animation: vo-hero-rise 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) 0.6s both;
+}
+
+.vo-hero-banner__spin {
+  transform-origin: 50% 50%;
+  animation: vo-hero-spin 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) 0.8s both;
+}
+
+@keyframes vo-hero-rise {
+  from { transform: scaleY(0); }
+  to { transform: scaleY(1); }
+}
+
+@keyframes vo-hero-draw {
+  from { stroke-dashoffset: 1; }
+  to { stroke-dashoffset: 0; }
+}
+
+@keyframes vo-hero-pop {
+  from { transform: scale(0); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+@keyframes vo-hero-flow {
+  from { transform: scaleX(0); opacity: 0; }
+  to { transform: scaleX(1); opacity: 1; }
+}
+
+@keyframes vo-hero-spin {
+  from { transform: rotate(-120deg); opacity: 0; }
+  to { transform: rotate(0deg); opacity: 1; }
+}
+
+@keyframes vo-hero-sweep {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(100%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .vo-hero-banner *,
+  .vo-hero-banner::after {
+    animation: none !important;
+  }
+
+  .vo-hero-banner::after {
+    display: none;
+  }
+}
+
+.md-typeset h1.vo-hero-banner__title {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  color: #fff;
+  font-size: 2em;
+  font-weight: 800;
+  line-height: 1.2;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.45), 0 0 24px rgba(255, 255, 255, 0.12);
+}
+
+.md-content__inner.md-typeset:has(.vo-hero-banner) > h1:not(.vo-hero-banner__title) {
+  display: none;
+}
+
+@media screen and (max-width: 76.1875em) {
+  .vo-hero-banner {
+    min-height: 148px;
+  }
+
+  .md-typeset h1.vo-hero-banner__title {
+    font-size: 1.75em;
+  }
+}
+
+@media screen and (max-width: 37.5em) {
+  .vo-hero-banner {
+    min-height: 128px;
+    padding: 1rem;
+  }
+
+  .md-typeset h1.vo-hero-banner__title {
+    font-size: 1.4em;
+  }
+}
+
 /* KanORS header logo — revert per DEMO-LOGO.md */
 /* Top header bar uses brand navy; theme.logo supplies white PNG via <img src> */
 .md-header__button.md-logo img,
