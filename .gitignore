@@ -1,5 +1,4 @@
 ﻿site/
-build/
 .venv/
 venv/
 __pycache__/

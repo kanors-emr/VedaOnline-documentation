@@ -17,7 +17,7 @@
 - **SubRES \[SR\]**: Files used to introduce new commodities and processes in the RES that are not part of the B-Y templates. Unlike B-Y templates, SubRES files are region-independent. Each SubRES file has a corresponding transformation file for adding region-specific process attributes, including availability by region. The naming conventions are `SubRES_<name>` and `SubRES_<name>_Trans`.
 - **Regular Scenarios \[RS\]**: Scenario files used to update existing information or insert new information in any part of the RES, including B-Y templates, SubRES files, and Trade files. They are also used to include additional user constraints in the model. The naming convention is `Scen_<scenario name>`. These files can insert or update attributes for previously declared RES components, but they cannot add new commodities or processes. Scenario files are introduced in `DemoS_004`.
 - **Demand Scenarios \[DS\]**: Demand templates include the information required to project end-use demands for energy services in each region, such as macroeconomic drivers and sensitivity series. Multiple demand files may be used to model different demand growth scenarios. The naming convention is `ScenDem_<scenario name>`. This section also contains `Dem_Alloc+Series`, which assigns a demand driver and a sensitivity or elasticity series to each end-use demand in each region. Demand files and tables are described in `DemoS_010`.
-- **Trade Scenarios \[TS\]**: This section contains files where unilateral and bilateral trade links between regions are declared, together with associated data where needed. It also contains all attribute specifications for trade processes. Multiple trade files may be used for different trade scenarios or commodities. The naming convention is `ScenTrade_<scenario name>`. Trade files are introduced in `DemoS_005`.
+- **Trade Scenarios \[TS\]**{: #trade-scenarios-ts }: This section contains files where unilateral and bilateral trade links between regions are declared, together with associated data where needed. It also contains all attribute specifications for trade processes. Multiple trade files may be used for different trade scenarios or commodities. The naming convention is `ScenTrade_<scenario name>`. Trade files are introduced in `DemoS_005`. After a sync, [**Model Trade Links**](#model-trade-links) draws those declared links on a world map.
 - **Parametric Scenarios \[PS\]**: Functionality designed to support multiple runs and parametric analysis through programmed multi-value scenario sets.
 - **No Seed Values \[NSV\]**: Files that do not provide seed values to any other scenario. These are processed in parallel. Veda identifies which files can be converted into NSV scenarios. This feature was introduced in 2019.
 
@@ -47,11 +47,7 @@
 
             <span class="vo-coming-soon">Coming soon.</span> This section will be updated to describe <strong>Tag Details</strong> in Veda Online.
 
-    - **Model Trade Links**
-
-        !!! note
-
-            <span class="vo-coming-soon">Coming soon.</span> This section will be updated to describe <strong>Model Trade Links</strong> in Veda Online.
+    - **Model Trade Links** — Opens a world map of inter-regional trade links from your **Trade Scenarios** files. See the [section below](#model-trade-links) for how to open and use the map.
 
     - **Sync Logs**
 
@@ -81,3 +77,45 @@
     - Synchronize imports all selected Excel workbooks into the Veda database. Processing can be observed live in the right-hand logging window or on the **Jobs Dashboard** page.
     - An email is sent to the associated user upon completion. Whether the run succeeds or fails, the sync log details are included in the completion email.
     - After synchronizing a model, you can return to the Navigator.
+
+
+### Model Trade Links {: #model-trade-links }
+
+**Model Trade Links** is a world map of **inter-regional trade** in the current model. Each arc is a declared link between two regions from your **Trade Scenarios** files (`ScenTrade_<scenario name>`). Use it after a **Synchronize** to check that trade is set up between the regions you expect.
+
+<img src="../images/modal_trade_links.png" height="200" alt="image "  />
+
+**Open the map**
+
+You can open the same window in two ways:
+
+1. On the Navigator toolbar, open the **Options** menu and choose **Model Trade Links**.
+2. On the **Trade Scenarios \[TS\]** grid, click the **earth** icon in the grid header (tooltip: **Scenario Trade links**).
+
+
+**How to read the map**
+
+- The background is a world map of countries.
+- A **teal curved line** is one trade link, drawn between the two regions named in that link.
+- A small **blue marker** moves along the line to show the direction of the link (from the first region toward the second).
+- Region positions come from Veda’s built-in list of region coordinates, matched to the **region names** in the model. You do not enter latitude or longitude in Excel for this map.
+
+**Explore the map**
+
+- **Pan** by dragging. **Zoom** with the mouse wheel.
+- **Hover a line** to see the two regions in a tooltip (`Region1 → Region2`). Links that do not start from the same origin region are dimmed so the hovered route is easier to follow.
+- Move the pointer off the line to show all links again.
+
+
+**When the map looks empty or incomplete**
+
+- **Synchronize** first. The map reads trade links from the database, not from unsynced Excel files.
+- If the model has no Trade Scenarios (or none have been imported), the map has no arcs.
+- A link appears only when both region names match Veda’s coordinate list. Unmatched region names are omitted or may not plot in the expected place.
+
+!!! tip
+
+    Use **Model Trade Links** for a quick check of which **regions** trade with each other. Use **Grid Map** on [Items detail](Items-detail.md) when you need **commodity** locations and individual trade processes on a map.
+
+
+
