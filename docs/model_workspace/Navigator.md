@@ -5,6 +5,7 @@
 - The Navigator provides a comprehensive view of all the templates in the various folders managed by Veda for the current model.
 - The Navigator is the main vehicle for accessing, importing, and coordinating the various templates that make up a model.
 - Its main screen is divided into sub-windows according to the various types of templates managed by Veda.
+- For GitHub-linked models, use **Pull**, **Push**, and **Commits** to keep the server folder aligned with GitHub. Double-click a file row to open it in the browser **Excel Viewer**.
 
 <img src="../images/navigator.png" class="align-center" alt="image" />
 
@@ -62,9 +63,10 @@
             <span class="vo-coming-soon">Coming soon.</span> This section will be updated to describe <strong>Delete Logs</strong> in Veda Online.
 
 2.  **Start from Scratch** – Deletes the previous model data from the database and pulls all files from the GitHub repository. You then need to synchronize the model again. Reports module data is not deleted.
-3.  **Pull** – Pulls all files from the Git repository without changing your data in the VedaOnline database.
-4.  **Commits** – Lets you review your GitHub commits directly in VedaOnline.
-5.  **File Status** – Provides feedback about the status of the various files and the integrated database managed by Veda, according to the color legend at the bottom of the form.
+3.  **Pull** – Replaces the model folder on the server with the latest GitHub files; unpushed local changes are lost. Database data is not changed — run **Synchronize** afterwards if needed.
+4.  **Push** – Sends selected Navigator Excel files to GitHub. See [Push Excel files to GitHub](#push-excel-files-to-github).
+5.  **Commits** – Lets you review your GitHub commits directly in Veda Online.
+6.  **File Status** – Provides feedback about the status of the various files and the integrated database managed by Veda, according to the color legend at the bottom of the form.
     - **Not imported** – not yet read into the database
     - **Imported** – selected for importing with the next SYNC
     - **Consistent** – template is in sync with the database
@@ -72,11 +74,58 @@
     - **ToRemove** – previously imported template now flagged for removal from the database
     - **FileMissing** – a previously imported template that no longer exists in the template folder
     - **Error** – the file has thrown an error
-6.  **Email Checkbox** – If this checkbox is cleared, VedaOnline will not send an email after synchronization finishes.
-7.  **Synchronize** – Processes all templates in the application folder that are marked in the selected files list as `ToImport` (orange).
+    - A **red marker** on a row means the file has changes not yet pushed to GitHub.
+7.  **Email Checkbox** – If this checkbox is cleared, VedaOnline will not send an email after synchronization finishes.
+8.  **Synchronize** – Processes all templates in the application folder that are marked in the selected files list as `ToImport` (orange).
     - Synchronize imports all selected Excel workbooks into the Veda database. Processing can be observed live in the right-hand logging window or on the **Jobs Dashboard** page.
+    - Sync does not push to GitHub. If files have unpushed changes, you are warned first and can **Continue Sync** or **Cancel**.
     - An email is sent to the associated user upon completion. Whether the run succeeds or fails, the sync log details are included in the completion email.
     - After synchronizing a model, you can return to the Navigator.
+
+### Push Excel files to GitHub
+
+Use **Push** (**Alt + U**) to send Excel files you edited in Veda Online to GitHub. The red count on **Push** shows how many files have unpushed changes.
+
+1. Click **Push** and select the files.
+2. Enter a **commit message** and click **Push**.
+3. The confirmation includes a link to the commit on GitHub.
+
+- If GitHub has newer commits, Push is blocked — **Pull** first.
+- **Discard** (same window) reverts the selected files to the last pulled version. It cannot be undone.
+
+### GitHub credentials
+
+Save your GitHub token on [User Profile](../User-Profile.md).
+
+- **Push** always needs a token with write access.
+- **Private** repositories also need a token for **Pull** and **Start from Scratch**.
+- Excel Viewer opens without a token, but **Save** needs one.
+
+### Excel Viewer
+
+When Excel Viewer is enabled for your account, open templates in the browser instead of downloading them.
+
+<img src="../images/excel_viewer.png" class="align-center" alt="Excel Viewer" />
+
+**How to open**
+
+- **Navigator** — Double-click a file row. For SubRES rows, you can also open the matching `*_Trans` workbook.
+- **[Browse](Browse.md)** and **[Items detail](Items-detail.md)** — Double-click a pivot value cell.
+- In the viewer, press **F1** for keyboard shortcuts.
+
+**Can I save?**
+
+| Situation | Result |
+| --- | --- |
+| Token saved and branch up to date | Edit and save |
+| No token saved | View only |
+| GitHub has newer commits | View only — **Pull** first |
+
+**Saving**
+
+- Save with **Ctrl + S** or the toolbar. Auto-save runs about 60 seconds after your last edit.
+- Only cell edits are saved; charts in the file are kept as they are.
+- Limits: **50 MB** per file and **50** worksheets.
 
 
 ### Model Trade Links {: #model-trade-links }

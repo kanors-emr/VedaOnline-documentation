@@ -103,6 +103,8 @@ Use it to review the parameters actually read for that item, rearrange dimension
 1. Select an item in the left list. The Pivot loads that item’s parameters.
 2. Use **Layout** to drag dimensions onto rows, columns, or filters (for example attribute, region, commodity, scenario).
 
+3. To open the source Excel, **double-click** a value cell (or select it and press **Enter**). Hover first to see the workbook, sheet, and cell. Requires Excel Viewer; save rules are the same as in [Navigator](Navigator.md#excel-viewer).
+
 For general pivot controls, see [Pivot Grid](../Pivot-grid.md).
 
 

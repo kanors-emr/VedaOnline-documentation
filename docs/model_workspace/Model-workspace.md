@@ -16,7 +16,7 @@ The sections in this chapter follow that same structure, so you can jump from th
 
 - **Main Menu** — Home, Modules list, search, and model information.
     - **About Module** — Model introduction, metadata, and Key Output / Presenter Views.
-    - **Navigator** — Excel templates, sync, and file status.
+    - **Navigator** — Excel templates, GitHub Pull/Push, sync, and Excel Viewer.
     - **Browse** — Tabular view of input data.
     - **Items detail** — Topology and parameters for items.
     - **Attribute Master** — Topology and input parameters for items (see also Items detail).

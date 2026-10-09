@@ -2,7 +2,7 @@
 
 - Home: link to go back to home page. Home page enables user to select and create models.
 - Modules: to launch the main functions:
-    - Navigator - to see all Excel files that are included in the model.
+    - Navigator - to see all Excel files in the model, Pull/Push GitHub changes, and open files in Excel Viewer.
     - Browse - for a tabular view of the input data - across all Excel files.
     - Items Detail - to see topology and input parameters for items.
     - Attribute Master - to see topology and input parameters for items.

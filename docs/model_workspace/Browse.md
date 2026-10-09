@@ -29,3 +29,13 @@ The Browser thereby enables the user to view subsets of the assembled data in a 
 - The selected set filters the linked elements.
 
 <img src="../images/browse_set.png" class="align-center" alt="image" />
+
+### Open source Excel from a pivot cell
+
+When **Excel Viewer** is enabled for your account, you can open the template that supplied a pivot value.
+
+- Hover a value cell to see its workbook, sheet, and cell.
+- **Double-click** the cell (or select it and press **Enter**) to open it in Excel Viewer. If the value has a **seed** source, both workbooks open.
+- Labels and aggregated cells cannot be opened.
+
+Save rules are the same as in Navigator — see [Excel Viewer](Navigator.md#excel-viewer).
