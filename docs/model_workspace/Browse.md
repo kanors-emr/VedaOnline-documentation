@@ -12,7 +12,7 @@ Browsing model input is **necessary** for two reasons:
 - The declarations for a single item may be spread across several Excel files, and you will see them all in one place in this interface.
 - Browse presents the actual model data.
 
-<img src="../images/Browse.png" class="align-center" alt="image" />
+<img src="../../images/Browse.png" class="align-center" alt="image" />
 
 The Browser thereby enables the user to view subsets of the assembled data in a cube by selecting the scenario(s), region(s), process(es), commodity(ies), and/or the attribute(s) of interest. It is possible to rearrange the layout of the cube by adding/removing dimensions (columns and rows) to/from the table.
 
@@ -28,4 +28,4 @@ The Browser thereby enables the user to view subsets of the assembled data in a 
 - In the Process and Commodity element lists, select **User Set** or **TIMES Set** from the dropdown (as shown below).
 - The selected set filters the linked elements.
 
-<img src="../images/browse_set.png" class="align-center" alt="image" />
+<img src="../../images/browse_set.png" class="align-center" alt="image" />

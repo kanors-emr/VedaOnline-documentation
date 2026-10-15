@@ -2,7 +2,7 @@
 - Use **Views** to open the **Views** window and maintain saved configurations.
 - Saved views help users quickly reuse previously defined layouts, filters, and analysis settings without repeating the full setup.
 
-<img src="../images/results_saved_views.png" class="align-center" width="600" alt="image" />
+<img src="../../images/results_saved_views.png" class="align-center" width="600" alt="image" />
 
 - The **Views** window contains two main sections:  
   1.  **Views List**: shows individual saved views and lets users load, edit, export, delete, or import them.

@@ -12,14 +12,14 @@ This shows the basic information, topology, and parameters for all items — pro
     - A plug-in diesel hybrid car can be modelled as a process that converts electricity and/or diesel to passenger-miles
 - A typical national model may have ~1000 processes
 
-<img src="../images/TIMES_process.png" class="align-center" alt="image" />
+<img src="../../images/TIMES_process.png" class="align-center" alt="image" />
 
 ## How to use it?
 
 - Choose a **region** from the drop-down (or **All**).
 - Switch the left list with **Prc**, **Com**, **UC**, or **CG**, then search or select an item. The center Pivot, Detailed View, and topology tabs follow that selection.
 
-<img src="../images/new_items_detail.png" class="align-center" width="600" alt="Items detail: left item list, center Pivot, right Detailed View and Grid Map" />
+<img src="../../images/new_items_detail.png" class="align-center" width="600" alt="Items detail: left item list, center Pivot, right Detailed View and Grid Map" />
 
 ## Where to view the data
 
@@ -30,7 +30,7 @@ This shows the basic information, topology, and parameters for all items — pro
 Network Diagram is a separate window that draws the energy system around the **process** or **commodity** you selected. Items sit in columns from left to right — upstream on the left, the selected item in the middle, downstream on the right. Curved paths show how commodities and processes connect. The diagram includes up to **five input and five output levels** automatically.
 
 <figure class="align-center">
-<img src="../images/items_view_network_diag.png" height="300" alt="Network Diagram window showing upstream processes, center item, and downstream commodities with a color legend" />
+<img src="../../images/items_view_network_diag.png" height="300" alt="Network Diagram window showing upstream processes, center item, and downstream commodities with a color legend" />
 </figure>
 
 #### Purpose
@@ -57,7 +57,7 @@ Use it for a fast neighborhood scan. Use **New RES Diagram** when you need more 
 
 New RES Diagram is a separate window that shows a Reference Energy System graph for the **process** or **commodity** you selected. Inputs sit on the left, the selected item is in the center, and outputs sit on the right. Boxes use TIMES type colors, with a legend in the bottom-left.
 
-<img src="../images/items_view_new_res_diag.png" height="300" class="align-center" alt="New RES Diagram with the selected item in the center, inputs on the left, and outputs on the right" />
+<img src="../../images/items_view_new_res_diag.png" height="300" class="align-center" alt="New RES Diagram with the selected item in the center, inputs on the left, and outputs on the right" />
 
 #### Purpose
 
@@ -92,7 +92,7 @@ Use it when one hop is not enough: you can show **0–10** levels on each side, 
 
 The Pivot is the **center** panel on Items detail. It is an interactive table of **flat-file input data** (parameters and assumptions) for the item selected in the left list — a process, commodity, user constraint, or commodity group.
 
-<img src="../images/items_view_pivot.png" class="align-center" alt="Pivot table of item parameters with Layout fields and Network Diagram and New RES Diagram buttons" width="500" />
+<img src="../../images/items_view_pivot.png" class="align-center" alt="Pivot table of item parameters with Layout fields and Network Diagram and New RES Diagram buttons" width="500" />
 
 #### Purpose
 
@@ -112,7 +112,7 @@ For general pivot controls, see [Pivot Grid](../Pivot-grid.md).
 
 Detailed View is the summary card at the top of the **right** panel, above the **Grid Map** and **RES** tabs. It shows the selected item’s name, description, and classification badges from the model sets (type, units, sets, region, and similar fields).
 
-<img src="../images/items_view_detail_view.png" class="align-center" height="200" alt="Detailed View card showing item name, description, and attribute badges for a process" />
+<img src="../../images/items_view_detail_view.png" class="align-center" height="200" alt="Detailed View card showing item name, description, and attribute badges for a process" />
 
 #### Purpose
 
@@ -147,7 +147,7 @@ Select an item in the left list. The card updates automatically — no extra but
 
 **Grid Map** is a tab on the right panel (next to **RES**) that places commodities and trade processes on a geographic map. **Points** are commodities that have a location (latitude and longitude). **Lines** are processes that link two commodities (typically trade): gray for the same region, orange for **cross-border**.
 
-<img src="../images/grid_map.png" class="align-center" height="200" alt="Grid Map of commodity locations and trade links on a geographic map" />
+<img src="../../images/grid_map.png" class="align-center" height="200" alt="Grid Map of commodity locations and trade links on a geographic map" />
 
 #### Purpose
 
@@ -223,7 +223,7 @@ By default the map shows only commodities that already have a trade link. Unlink
 
 Basic View is the **RES** tab in the lower-right panel (below Detailed View, next to **Grid Map**). It is a one-hop Reference Energy System for the item in the left list: the selected item in the center, **direct** inputs on the left, **direct** outputs on the right.
 
-<img src="../images/items_view_input_output.png" class="align-center" height="250" alt="Basic View on the RES tab: selected process in the center, input commodities on the left, output commodities on the right, and a color legend at the bottom" />
+<img src="../../images/items_view_input_output.png" class="align-center" height="250" alt="Basic View on the RES tab: selected process in the center, input commodities on the left, output commodities on the right, and a color legend at the bottom" />
 
 #### Purpose
 

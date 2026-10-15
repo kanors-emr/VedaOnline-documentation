@@ -18,6 +18,16 @@
     }
   }
 
+  // Sticky header covers the top of the page. scrollIntoView(..., "start")
+  // puts the heading underneath it, so the visible spot is below the heading.
+  function headerOffset() {
+    var header = document.querySelector(".md-header");
+    if (!header) return 0;
+    var position = getComputedStyle(header).position;
+    if (position !== "sticky" && position !== "fixed") return 0;
+    return header.getBoundingClientRect().height;
+  }
+
   function scrollToHash(hash, fromTop) {
     var el = targetFromHash(hash);
     if (!el) return false;
@@ -28,7 +38,8 @@
 
     requestAnimationFrame(function () {
       requestAnimationFrame(function () {
-        el.scrollIntoView({ behavior: "smooth", block: "start" });
+        var top = el.getBoundingClientRect().top + window.pageYOffset - headerOffset() - 8;
+        window.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
         el.classList.remove("vo-anchor-motion");
         void el.offsetWidth;
         el.classList.add("vo-anchor-motion");

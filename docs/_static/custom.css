@@ -30,6 +30,11 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Keep anchored headings just below the sticky header, not under it. */
+.md-typeset :is(h1, h2, h3, h4, h5, h6)[id] {
+  scroll-margin-top: 4.8rem;
+}
+
 /* Anchor target: slide from down → up */
 @keyframes vo-anchor-up {
   from {

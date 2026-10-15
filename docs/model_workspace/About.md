@@ -5,7 +5,7 @@
 The **About** module provides general information about the selected model or **Presenter Views**. It helps users understand the background, purpose, and important context of the model before using other features in VedaOnline.
 
 <figure class="align-center">
-<img src="../images/about_modules.png" alt="About modules" />
+<img src="../../images/about_modules.png" alt="About modules" />
 </figure>
 
 ## How to use it?
@@ -21,5 +21,5 @@ The **About** module contains two main tabs:
     - For detailed information on creating, sharing, and managing **Presenter Views**, see the [Presenter Views](Reports.md#presenter-views) section in the Reports module.
 
 <figure class="align-center">
-<img src="../images/gifs/presenter_views.gif" width="600" />
+<img src="../../images/gifs/presenter_views.gif" width="600" />
 </figure>

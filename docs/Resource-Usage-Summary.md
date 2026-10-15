@@ -6,7 +6,7 @@ The **Resource Usage Summary** page is used to help users monitor resource consu
 
 This page helps users understand how much resource has been used, where it was used, and which activities contributed to that usage.
 
-<img src="images/gifs/resource_usage_summary.gif" class="align-center" width="600" alt="image" />
+<img src="../images/gifs/resource_usage_summary.gif" class="align-center" width="600" alt="image" />
 
 ## How to use it?
 

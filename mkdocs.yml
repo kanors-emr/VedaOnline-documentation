@@ -1,7 +1,6 @@
 site_name: Veda Online Documentation
 site_description: Documentation for Veda Online — TIMES model management in the browser
 site_url: https://kanors-emr.github.io/VedaOnline-documentation/
-use_directory_urls: false
 docs_dir: docs
 site_author: KanORS
 

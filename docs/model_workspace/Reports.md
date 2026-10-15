@@ -22,7 +22,7 @@ Take Transportation final energy in a rich model like JRC_EU-TIMES as an example
 ## How to use it?
 
 <figure class="align-center">
-<img src="../images/Reports/reports_modules.png" width="600" />
+<img src="../../images/Reports/reports_modules.png" width="600" />
 </figure>
 
 ### 1. Operations
@@ -30,7 +30,7 @@ Take Transportation final energy in a rich model like JRC_EU-TIMES as an example
 The **Operations** menu contains actions related to report processing and case management.
 
 <figure class="align-center">
-<img src="../images/Reports/reports_process_study.png" width="600" />
+<img src="../../images/Reports/reports_process_study.png" width="600" />
 </figure>
 
 - **Process Study**  
@@ -77,7 +77,7 @@ The **Operations** menu contains actions related to report processing and case m
 - Use **Views** to open the **Views** window and maintain saved configurations.
 - Saved views help users quickly reuse previously defined layouts, filters, and analysis settings without repeating the full setup.
 
-<img src="../images/results_saved_views.png" class="align-center" width="600" alt="image" />
+<img src="../../images/results_saved_views.png" class="align-center" width="600" alt="image" />
 
 - The **Views** window contains two main sections:  
     1.**Views List**: shows individual saved views and lets users load, edit, export, delete, or import them.
@@ -170,7 +170,7 @@ In such cases, the user can create a Presenter View and share only the required 
 
 This helps users share important analysis safely and in a more focused way.
 
-<img src="../images/gifs/reports_presenter_view.gif" class="align-center" width="600" alt="image" />
+<img src="../../images/gifs/reports_presenter_view.gif" class="align-center" width="600" alt="image" />
 
 #### How to use Report Presenter Views?
 
@@ -245,33 +245,33 @@ The Reports module provides right-click (context menu) capability on selected it
 
 Tag **~TS_Defs** is used to create variables, listed under the column "Name" below. This supports the standard process/commodity filter columns of Veda, along with Attribute, TS (Timeslice) and UC_N. "<Pset>" embedded in the variable name creates a separate variable for each set listed in the PSET_SET column. This works for "<Cset>" and "<CName>" as well.
 
-<img src="../images/Reports/varbls_on_com_sets.png" width="600" alt="image" />
+<img src="../../images/Reports/varbls_on_com_sets.png" width="600" alt="image" />
 
-To be embedded in a variable name, the process set should appear in a table **~PSet_Map**. This has PSet \| Desc \| LDesc as columns. Text in the Desc column replaces <PSet> in the variable name. For example, [EProd]()<PSet> with PSet=ELECOA and Desc=Coal will translate into a variable EProd_Coal. LDesc column is not in use at this time.
+To be embedded in a variable name, the process set should appear in a table **~PSet_Map**. This has PSet \| Desc \| LDesc as columns. Text in the Desc column replaces <PSet> in the variable name. For example, `EProd_<PSet>` with PSet=ELECOA and Desc=Coal will translate into a variable EProd_Coal. LDesc column is not in use at this time.
 
 ### Aggregations based on Varbl and Process names
 
 Now we have variables by generation technology, but the technology name is embedded in the variable name, which also has identfiers for the attribute. It would be better to have the technology name in a separate column. Further, one may want to split these variables by ELE/CHP, which could be identified from the process name. Tags **~Varbl_map** and **~Process_map** make this possible, as shown below.
 
-<img src="../images/Reports/agg_on_varbls-process.png" width="600" alt="image" />
+<img src="../../images/Reports/agg_on_varbls-process.png" width="600" alt="image" />
 
 ### Aggregations based on Varbl and Region names
 
 Region groupings can be created using the **~Region_map** tag.
 
-<img src="../images/Reports/agg_on_varbls-region.png" width="600" alt="image" />
+<img src="../../images/Reports/agg_on_varbls-region.png" width="600" alt="image" />
 
 ### Coarser Variables can be created too
 
 In the first example for creating variables, the technology information was embedded in the variable name (via process set). One can create coarser variables if the naming conventions allow extracting this information directly from process names. We look at the transport sector reporting for this.
 
-<img src="../images/Reports/coarser_varbls.png" width="600" alt="image" />
+<img src="../../images/Reports/coarser_varbls.png" width="600" alt="image" />
 
 ### Aggregations based on Commodity names
 
 **~Commodity_map** tag can be used to create commodity aggregations.
 
-<img src="../images/Reports/agg_on_comm_grps.png" width="600" alt="image" />
+<img src="../../images/Reports/agg_on_comm_grps.png" width="600" alt="image" />
 
 !!! note
 
@@ -281,19 +281,19 @@ In the first example for creating variables, the technology information was embe
 
 Multiple dimensions can be extracted from process names.
 
-<img src="../images/Reports/agg_on_process.png" width="600" alt="image" />
+<img src="../../images/Reports/agg_on_process.png" width="600" alt="image" />
 
 ## Viewing Reports
 
 Veda2.0 has a basic report viewer, which is sufficient to validate the set up of reports and for simple visualizations. Excel export and CSV dumps are possible, like in Results.
 
-<img src="../images/Reports/Veda_reports_viewer.png" width="600" alt="image" />
+<img src="../../images/Reports/Veda_reports_viewer.png" width="600" alt="image" />
 
 ### CSV output
 
 It can be consumed in applications like Tableau, Power BI, or LMA
 
-<img src="../images/Reports/csv_output_reports.png" width="600" alt="image" />
+<img src="../../images/Reports/csv_output_reports.png" width="600" alt="image" />
 
 ## Advanced features
 
@@ -322,30 +322,30 @@ LMA (Last Mile Analytics) is a proprietary web-based data visualization platform
 
 ### Sources and uses of main energy forms
 
-- <a href="https://lma.vedaviz.com/Presenter/Predex.aspx?pkp=1041&pkv=252583" target="_blank"><b>See it online </a> <i>select energy form</i></b>
+- [See it online](https://lma.vedaviz.com/Presenter/Predex.aspx?pkp=1041&pkv=252583) — select energy form
 
-<img src="../images/Reports/main_energy_forms.png" width="600" alt="image" />
+<img src="../../images/Reports/main_energy_forms.png" width="600" alt="image" />
 
 ### Road transport vehicles
 
-- <a href="https://lma.vedaviz.com/Presenter/Predex.aspx?pkp=1041&pkv=252590" target="_blank"><b>See it online </a> <i>select region</i></b>
+- [See it online](https://lma.vedaviz.com/Presenter/Predex.aspx?pkp=1041&pkv=252590) — select region
 
-<img src="../images/Reports/lma_road_transport.png" width="600" alt="image" />
+<img src="../../images/Reports/lma_road_transport.png" width="600" alt="image" />
 
 ### Power generation
 
-- <a href="https://lma.vedaviz.com/Presenter/Predex.aspx?pkp=1041&pkv=252586" target="_blank"><b>See it online </a> <i>select electricity/hydrogen/heat, and region</i></b>
+- [See it online](https://lma.vedaviz.com/Presenter/Predex.aspx?pkp=1041&pkv=252586) — select electricity/hydrogen/heat, and region
 
-<img src="../images/Reports/lma_power_gen.png" width="600" alt="image" />
+<img src="../../images/Reports/lma_power_gen.png" width="600" alt="image" />
 
 ### Power generation – alternate view
 
-- <a href="https://lma.vedaviz.com/Presenter/Predex.aspx?pkp=1041&pkv=252588" target="_blank"><b>See it online </a></b>
+- [See it online](https://lma.vedaviz.com/Presenter/Predex.aspx?pkp=1041&pkv=252588)
 
-<img src="../images/Reports/power_gen_alt_view.png" width="600" alt="image" />
+<img src="../../images/Reports/power_gen_alt_view.png" width="600" alt="image" />
 
 ### Power generation – alternate view 2
 
-- <a href="https://lma.vedaviz.com/Presenter/Predex.aspx?pkp=1041&pkv=252589" target="_blank"><b>See it online </a></b>
+- [See it online](https://lma.vedaviz.com/Presenter/Predex.aspx?pkp=1041&pkv=252589)
 
-<img src="../images/Reports/power_gen_alt_view-2.png" width="600" alt="image" />
+<img src="../../images/Reports/power_gen_alt_view-2.png" width="600" alt="image" />

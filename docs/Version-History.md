@@ -14,12 +14,12 @@
 **ALL VERSIONS**
 
 - \[Enhancements\]
-    - Improved functionality and visual clarity for the RES diagram to enhance user experience and data representation. [RES Diagram video](https://www.kanors-emr.org/vedaonline/videos/RES_DiagramNewFeautes.mp4)
+    - Improved functionality and visual clarity for the RES diagram to enhance user experience and data representation.
     - Significant improvements in the Pivot UI, including usability upgrades for smoother navigation and better interaction.
     - Added a notification message window to inform users when no data exists in the selected reports, improving transparency and user guidance.
 - \[Fixes\]
     - Enhanced error handling to report issues directly to users when an error occurs during NEOS job execution.
-  - Resolved an out-of-memory issue encountered while downloading large Reports views.
+    - Resolved an out-of-memory issue encountered while downloading large Reports views.
 
 ## 2.1.4.0 \[2024-11-19\]
 
@@ -41,8 +41,8 @@
 - \[Fixes\]
     - Fixed radio selection in GDX form
 - \[Enhancements\]
-    - Results/Reports views export [Results/Reports export video](https://www.kanors-emr.org/vedaonline/videos/Results&ReportsViewsExportAndDownloadViaJobsDashboard.mp4)
-    - Study description [Study description video](https://www.kanors-emr.org/vedaonline/videos/StudyDescriptionUseLastCommitMessage.mp4)
+    - Results/Reports views export
+    - Study description
 
 ## 2.1.2.0 \[2024-09-07\]
 

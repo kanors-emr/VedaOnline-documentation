@@ -31,7 +31,7 @@ The **User Profile** acts as the master control for email notifications.
 ### Available Options
 
 <figure class="align-center">
-<img src="images/email_userprofile.png" alt="Email notification settings in the User Profile" />
+<img src="../images/email_userprofile.png" alt="Email notification settings in the User Profile" />
 <figcaption>User Profile – Email Notifications</figcaption>
 </figure>
 
@@ -53,7 +53,7 @@ In the **Navigator** module, an **Email** checkbox is available next to the **Sy
 ### Behavior
 
 <figure class="align-center">
-<img src="images/email_navigator.png" alt="Navigator sync email checkbox" />
+<img src="../images/email_navigator.png" alt="Navigator sync email checkbox" />
 <figcaption>Navigator – Sync email checkbox</figcaption>
 </figure>
 
@@ -78,7 +78,7 @@ In the **Run Manager**, an **Email** checkbox is available in Run Settings.
 ### Behavior
 
 <figure class="align-center">
-<img src="images/email_runmanager.png" alt="Run Manager email checkbox" />
+<img src="../images/email_runmanager.png" alt="Run Manager email checkbox" />
 <figcaption>Run Manager – Email checkbox</figcaption>
 </figure>
 

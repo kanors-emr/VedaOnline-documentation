@@ -336,6 +336,19 @@
   }
 }
 
+/* Homepage: keep the site name in place and bold, as on Veda 2.0.
+   The theme otherwise slides in a second, regular-weight copy of the title. */
+body:has(.vo-hero-banner) .md-header__topic:first-child {
+  opacity: 1 !important;
+  transform: none !important;
+  transition: none !important;
+  font-weight: 700;
+}
+
+body:has(.vo-hero-banner) .md-header__topic + .md-header__topic {
+  display: none !important;
+}
+
 /* KanORS header logo — revert per DEMO-LOGO.md */
 /* Top header bar uses brand navy; theme.logo supplies white PNG via <img src> */
 .md-header__button.md-logo img,

@@ -17,11 +17,11 @@ Used to analyse TIMES model results. Results are all stored in the model folder 
 
 - Batch export: to export results in excel and CSV.
 
-<img src="../images/results_functionality.png" width="600" alt="image" />
+<img src="../../images/results_functionality.png" width="600" alt="image" />
 
 ## How to use it?
 
-<img src="../images/results_module.png" class="align-center" width="600" alt="image" />
+<img src="../../images/results_module.png" class="align-center" width="600" alt="image" />
 
 ### 1. Operations
 
@@ -31,7 +31,7 @@ The **Operations** menu contains actions related to result processing and case m
 
 **Process Results** reads the **VD files** and processes all cases for the current model.
 
-<img src="../images/gifs/results_process.gif" class="align-center" width="600" alt="image" />
+<img src="../../images/gifs/results_process.gif" class="align-center" width="600" alt="image" />
 
 #### Delete Cases
 
@@ -43,7 +43,7 @@ Delete the saved cases in the current model.
 - Use **Views** to open the **Views** window and maintain saved configurations.
 - Saved views help users quickly reuse previously defined layouts, filters, and analysis settings without repeating the full setup.
 
-<img src="../images/results_saved_views.png" class="align-center" width="600" alt="image" />
+<img src="../../images/results_saved_views.png" class="align-center" width="600" alt="image" />
 
 - The **Views** window contains two main sections:  
   1.  **Views List**: shows individual saved views and lets users load, edit, export, delete, or import them.
@@ -135,7 +135,7 @@ The **Reset** option clears the current result selections and removes the applie
 - When a row in the Results grid is **highlighted in yellow**, it means that a global filter is applied to that row.
 - Press the **Ctrl key** and click on the row to apply the filter to the row.
 
-<img src="../images/gifs/global_filter.gif" class="align-center" width="600" alt="image" />
+<img src="../../images/gifs/global_filter.gif" class="align-center" width="600" alt="image" />
 
 ### 5. Get Data
 
