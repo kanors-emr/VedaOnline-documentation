@@ -127,6 +127,9 @@ nav:
     - Pivot Grid: Pivot-grid.md
     - Resource Usage Summary: Resource-Usage-Summary.md
 
+  - Veda Companion:
+    - AI and privacy: veda_companion/Companion-privacy.md
+
   - Notes:
     - Overview: Notes.md
     - Efficiency considerations in UPD Tables: UPDTables/UPD-tables.md
